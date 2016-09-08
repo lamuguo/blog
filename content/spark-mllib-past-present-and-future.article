@@ -1,0 +1,44 @@
+Spark MLlib: Past, Present and Future (Xiangrui Meng)
+3 Oct 2015
+Tags: technical, TechM
+
+* Registration Info
+- [[http://tech-meetup-10-03-2015.eventbrite.com][Registration Link]]
+- [[/spark-mllib-past-present-and-future][Event link]]
+
+* Join TechM community:
+- [[/wechat][微信群]]
+- [[/signup][Google group & LinkedIn Group]]
+1:30PM ~ 4:00PM, 10/03/2015, Saturday (Xiangrui Meng)
+
+* Event Info
+- Time: 1:30PM ~ 4:00PM, 10/03/2015, Saturday
+- Location: 97 E Brokaw Rd, Ste 210, San Jose, CA 95112
+
+* Agenda
+- 1:30pm - 2:00pm: Reception and social time
+- 2:00pm - 3:30pm: Talk and QA
+- 3:30pm - 4:00pm: offline networking
+
+* Tech Talks Abstract
+Apache Spark provides primitives for in-memory cluster computing, which is well suited for large-scale machine learning purposes. MLlib is a standard component in Spark providing machine learning primitives, initially created and contributed to Spark by UC Berkeley. With 50+ companies and 180+ individual developers contributing to MLlib, it is one of the most active open source projects for machine learning. MLlib’s goal is to make practical machine learning scalable and easy, and the community has devoted lot of time and effort towards this goal. In this talk, we present a brief history of MLlib, summarize new features in Spark 1.5, and discuss the roadmap. We will show the expansion of MLlib’s feature set, the evolution of MLlib’s pipeline API, the elevation of MLlib’s performance, as well as the integration with other Spark components. We will also provide entry points for users and developers to get started with Spark MLlib.
+
+* Speaker’ bio
+Xiangrui Meng is an Apache Spark PMC member and a software engineer at Databricks. His main interests center around developing and implementing scalable algorithms for scientific applications. He has been actively involved in the development and maintenance of Spark MLlib since he joined Databricks. Before Databricks, he worked as an applied research engineer at LinkedIn, where he was the main developer of an offline machine learning framework in Hadoop MapReduce. His Ph.D. work at Stanford is on randomized algorithms for large-scale linear regression problems.
+
+* 主办
+- [[http://tech-meetup.com][湾区同学技术沙龙 (tech-meetup.com)]]
+
+* 协办
+- 南京大学硅谷校友会
+- 瀚海硅谷科技园
+- 硅谷清华联网
+- 中国科技大学校友会创业俱乐部
+- 浙江大学校友会海纳创新创业俱乐部
+- 北京大学北加州校友会
+- 武汉大学北加州校友会
+- 东南大学硅谷校友会
+- 吉林大学硅谷校友会
+- 复旦大学北加州校友会
+- 华人事业互助会
+- 中美创新协会(CHAIN)
