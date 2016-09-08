@@ -1,0 +1,42 @@
+Borg: Large-scale Cluster Management at Google (Xiao Zhang)
+13 Dec 2015
+1:30PM ~ 4:00PM, 12/13/2015, Sunday
+Tags: technical, TechM
+
+* Registration
+- Registration link: [[http://tech-meetup-12-13-2015.eventbrite.com/]]
+- Event link: [[/borg-large-scale-cluster-management-at-google][Borg: Large-scale Cluster Management at Google]]
+
+* Event Info
+- Language: Chinese
+- Time: 1:30PM ~ 4:00PM, 12/13/2015, Sunday
+- Location: 97 E Brokaw Rd, Ste 210, San Jose, CA 95112
+
+* Agenda
+- 1:30pm – 2:00pm: Reception and social time
+- 2:00pm – 3:30pm: Talk and QA
+- 3:30pm – 4:00pm: offline networking
+
+* Abstract
+Google's Borg system is a cluster manager that runs hundreds of thousands of jobs, from many thousands of different applications, across a number of clusters each with up to tens of thousands of machines. It achieves high utilization by combining admission control, efficient task-packing, over-commitment, and machine sharing with process-level performance isolation. It supports high-availability applications with runtime features that minimize fault-recovery time, and scheduling policies that reduce the probability of correlated failures. Borg simplifies life for its users by offering a declarative job specification language, name service integration, real-time job monitoring, and tools to analyze and simulate system behavior.
+
+In this talk, Xiao Zhang, an engineer of the Borg project, will present a summary of the Borg system architecture and features, important design decisions, and lessons learned from a decade of operational experience with it.
+
+* Speaker’ bio
+Xiao is a Staff Engineer at Google, he works at Borg team for almost 5 years, mostly on node level resource management. Before joining Google, he was PhD student from University of Rochester.
+
+* 主办
+- [[http://tech-meetup.com][湾区同学技术沙龙 (tech-meetup.com)]]
+
+* 协办
+- 南京大学硅谷校友会
+- 瀚海硅谷科技园
+- 硅谷清华联网
+- 中国科技大学校友会创业俱乐部
+- 浙江大学校友会海纳创新创业俱乐部
+- 北京大学北加州校友会
+- 武汉大学北加州校友会
+- 东南大学硅谷校友会
+- 吉林大学硅谷校友会
+- 复旦大学北加州校友会
+- 华人事业互助会

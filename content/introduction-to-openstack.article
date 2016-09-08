@@ -1,0 +1,52 @@
+Introduction To OpenStack (Weidong Shao & Xin Wu)
+24 Jan 2016
+1:30PM ~ 4:00PM, 01/24/2016,Sunday
+Tags: technical, TechM
+
+* Registration
+- Registration link: [[http://tech-meetup-01-24-2016.eventbrite.com/]]
+- Event link: [[/introduction-to-openstack][Introduction To OpenStack]]
+
+* Event Info
+- Time: 1:30PM ~ 4:00PM, 01/24/2016,Sunday
+- Location: 97 E Brokaw Rd, Suite 210, San Jose, CA 95112
+
+* Agenda
+- 1:30pm – 2:00pm: Reception and social time
+- 2:00pm – 3:30pm: Talk and QA
+- 3:30pm – 4:00pm: offline networking
+
+* Abstract
+In this talk, the speakers will give a high level introduction of OpenStack, an open source software platform for cloud computing. We will talk about the system architecture, APIs, and major software components such as Nova, Cinder, Neutron, etc. The following related areas will be discussed:
+
+- Neutron networking, plug-ins, relationship with SDN controllers;
+- OpenStack ecosystem and "BigTent" model, DefCore process;
+- OpenStack deployment automation and related open-source projects such as Fuel and Compass
+- OpenStack community dynamics, relationship with Containers, and business trend in networking
+
+* Speaker’ bio
+- Weidong Shao is Director of Open Source Networking at Huawei USA R&amp;D center. He is active in open source projects such as Compass, OpenStack, and OPNFV. He received MS in Computational Mathematics from Stanford and BSEE from Tsinghua University.
+- Xin Wu is a member of technical staff at Big Switch Networks. He is a major contributor to the integration of Big Switch SDN controller and OpenStack Neutron. He received a PhD in computer science from Duke University.
+
+Yun Sun is a Staff Engineer and technical lead of Espresso team within LinkedIn's Data Infra team. He has been one of the primary contributors in building and optimizing Espresso for over 5 years.
+
+* Language:
+Chinese
+
+* 主办
+- [[http://tech-meetup.com][湾区同学技术沙龙 (tech-meetup.com)]]
+
+* 协办
+- 南京大学硅谷校友会
+- 瀚海硅谷科技园
+- 硅谷清华联网
+- 中国科技大学校友会创业俱乐部
+- 浙江大学校友会海纳创新创业俱乐部
+- 北京大学北加州校友会
+- 武汉大学北加州校友会
+- 东南大学硅谷校友会
+- 吉林大学硅谷校友会
+- 复旦大学北加州校友会
+- 华人事业互助会
+- 斯坦福中国学生学者联谊会(ACSSS)
+- 北加州华中科技大学校友会

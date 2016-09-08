@@ -1,0 +1,39 @@
+Photon: Fault-tolerant and scalable joining of continuous data streams (Tianhao Qiu)
+29 Mar 2015
+1:30pm ~ 4pm, 03/29/2015, Sunday
+Tags: technical, TechM
+
+* Registration
+- Registration link: [[http://tinyurl.com/signup-20150329]]
+- Event link: [[/photon-fault-tolerant-and-scalable-joining-of-continuous-data-streams][Photon: Fault-tolerant and scalable joining of continuous data streams]]
+
+* Event Info
+- Language: Chinese
+- Time: 1:30PM ~ 4:00PM, 12/13/2015, Sunday
+- Location: 97 E Brokaw Rd, Ste 210, San Jose, CA 95112
+
+* Agenda
+- 1:30pm – 2:00pm: Reception and social time
+- 2:00pm – 3:30pm: Talk and QA
+- 3:30pm – 4:00pm: offline networking
+
+* Abstract
+Photon is a highly fault-tolerant, scalable, low-latency and stateful distributed system to join multiple streams of data flowing continuously. Joining these data streams is critical to extract key metrics about Google ads system used for billing and internal analysis. Photon accomplishes exactly-once semantics and can automatically withstand datacenter-level outages, providing an order of magnitude higher uptime SLA relative to a single datacenter system. Our production deployment processes over one million events per second at peak with end-to-end latency of less than 30 seconds. In this talk, we will focus on detailed architecture of Photon, including a highly scalable paxos-based storage system.
+
+- [[http://research.google.com/pubs/pub41318.html][Photon publication]]
+
+* Speaker’ bio
+Tianhao is one of the Technical Leads in Ads Data infrastructure team at Google. He has been a major contributor to the design, implementation and launch of Photon.
+
+* 主办
+- [[http://tech-meetup.com][湾区同学技术沙龙 (tech-meetup.com)]]
+
+* 协办
+- TIPark Silicon Valley（感谢TIPark赞助场地）
+- 南京大学硅谷校友会
+- 硅谷清华联网
+- 中国科技大学校友会创业俱乐部
+- 浙江大学校友会海纳创新创业俱乐部
+- 北京大学北加州校友会
+- 武汉大学北加州校友会
+- 东南大学硅谷校友会

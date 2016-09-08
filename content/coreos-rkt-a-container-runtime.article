@@ -1,0 +1,44 @@
+CoreOS rkt, a Container Runtime (Yifan Gu)
+13 Dec 2015
+1:30PM ~ 4:00PM, 11/08/2015, Sunday
+Tags: technical, TechM
+
+* Registration
+- Registration link: [[http://tech-meetup-11-08-2015.eventbrite.com/]]
+- Event link: [[/coreos-rkt-a-container-runtime][CoreOS rkt, a Container Runtime]]
+
+* Event Info
+- Language: Chinese
+- Time: 1:30PM ~ 4:00PM, 11/08/2015, Sunday
+- Location: 97 E Brokaw Rd, Ste 210, San Jose, CA 95112
+
+* Agenda
+- 1:30pm – 2:00pm: Reception and social time
+- 2:00pm – 3:30pm: Talk and QA
+- 3:30pm – 4:00pm: offline networking
+
+* Abstract
+After being used and developed by Google since a decade ago, container technology recently becomes a hot topic in data center innovation. With the help of companies like Google, Redhat, CoreOS, Docker etc. The container ecosystem is now flourishing, there are a bunch of tools there to help you package, ship, and run your application almost everywhere from AWS, GCE to your tiny Raspberry PI cluster.</p><p>Although Docker gives users great experience to build and run containers, the industry still believes there are some pieces missing here. That's why CoreOS created APPC(App Container Spec) and worked with Companies like Google, Redhat, CloudFoundry, Mesosphere to push it as a container standard to address problems like image format, runtime spec, networking and other important issues.
+
+rkt (pronounced as Rocket) is a container runtime implementation for APPC created by CoreOS. By having a different design than Docker, it also tries to solve problems like security and composability.
+
+In this talk, Yifan Gu, a maintainer of the CoreOS rkt project, will discuss containers, APPC, rkt in much more details. Hopefully you can get an idea of what's container, why you should begin to use it after the talk.
+
+* Speaker’ bio
+Yifan is a maintainer of the rkt project at CoreOS(https://github.com/coreos/rkt). He also contributes to the Kubernetes project and strives to make it a good experience for people to use rkt in Kubernetes. Yifan is interested in system programing and debugging. He graduated from the CMU’s VLIS master program.
+
+* 主办
+- [[http://tech-meetup.com][湾区同学技术沙龙 (tech-meetup.com)]]
+
+* 协办
+- 南京大学硅谷校友会
+- 瀚海硅谷科技园
+- 硅谷清华联网
+- 中国科技大学校友会创业俱乐部
+- 浙江大学校友会海纳创新创业俱乐部
+- 北京大学北加州校友会
+- 武汉大学北加州校友会
+- 东南大学硅谷校友会
+- 吉林大学硅谷校友会
+- 复旦大学北加州校友会
+- 华人事业互助会

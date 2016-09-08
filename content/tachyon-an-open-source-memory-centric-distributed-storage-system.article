@@ -1,0 +1,48 @@
+Tachyon: an open source memory-centric distributed storage system (Bin Fan / Shaoshan Liu / Haoyuan Li)
+19 Jul 2015
+1:30PM ~ 3:40PM, 07/19/2015, Sunday
+Tags: technical, TechM
+
+* Registration
+- Registration link: [[http://tech-meetup-12-13-2015.eventbrite.com/]]
+- Event link: [[/tachyon-an-open-source-memory-centric-distributed-storage-system][Tachyon: an open source memory-centric distributed storage system]]
+
+* Event Info
+- Language: Chinese
+- Time: 1:30PM ~ 3:40PM, 07/19/2015, Sunday
+- Location: 97 E Brokaw Rd, Ste 210, San Jose, CA 95112
+
+* Agenda
+- 1:30pm - 1:50pm: Reception and social time
+- 1:50pm - 2:30pm: Session 1 by Bin Fan
+- 2:30pm - 3:10pm: Session 2 by Shaoshan Liu
+- 3:10pm - 3:30pm: Q&A and offline networking with Bin Fan, Shaoshan Liu and Haoyuan Li
+
+* Session 1: Tachyon overview
+Tachyon is a memory-centric fault-tolerant distributed storage system, which enables reliable file sharing at memory-speed. It was born in UC Berkeley AMPLab. It is open source and is deployed at multiple companies. In addition, Tachyon has more than 100 contributors from over 30 institutions, including Baidu, IBM, Intel, and Yahoo etc. Earlier this year, the latest spinout from AMPLab, Tachyon Nexus, started to commercialize Tachyon. The company is funded by Andreessen Horowitz. It was also recently listed on 9 Hot Enterprise Storage Companies to Watch by Network World and Computer World. In this talk, we present an overview of Tachyon, as well as some recent development and use cases.
+
+* Session 2: Fast big data analytics with Spark on Tachyon in Baidu
+In this talk we will focus on how Tachyon can help improve big data analytics (ad-hoc query) efficiency (up to 30x performance improvement) within Baidu. In detail, we will explain: Currently within Baidu, we have a production Tachyon cluster with 150 nodes and over 2 PB of storage space, this cluster mainly serves as the cache layer for our Big Data Analytics engine. In this talk, first we introduce the Big Data Analytic infrastructure within Baidu. Then, we explain why we started using Tachyon several months ago, as well as the problems encountered when we started using Tachyon. Next, we delve into the details of how Tachyon help accelerate our Big Data Analytics pipeline at its current state. At the end, we discuss what new features we want to see and the plan to scale further.
+
+* Speaker’ bio
+- Bin Fan is a software engineer at Tachyon Nexus. He is a top committer of the Tachyon project. Prior to Tachyon Nexus, he worked in Google to build the core storage infrastructure and won Google's Technical Infrastructure award. Bin got his Ph.D. in computer science from Carnegie Mellon University.
+- Shaoshan Liu is currently a Senior Architect at Baidu U.S.A. working on Big Data Infrastructure. Before Baidu, he worked at Linkedin and Microsoft. Shaoshan has a Ph.D. from UC Irvine.
+- Haoyuan Li is founder and CEO of Tachyon Nexus. He is a Computer Science Ph.D. candidate in AMPLab at UC Berkeley, where he co-created Tachyon, an open source memory-centric distributed storage system. He is also a founding committer of Apache Spark. Before Berkeley, he worked at Conviva and Google. Haoyuan has a M.S. from Cornell University and a B.S. from Peking University
+
+* 主办
+- [[http://tech-meetup.com][湾区同学技术沙龙 (tech-meetup.com)]]
+
+* 协办
+- 南京大学硅谷校友会
+- 瀚海硅谷科技园
+- 硅谷清华联网
+- 中国科技大学校友会创业俱乐部
+- 浙江大学校友会海纳创新创业俱乐部
+- 北京大学北加州校友会
+- 武汉大学北加州校友会
+- 东南大学硅谷校友会
+- 吉林大学硅谷校友会
+- 复旦大学北加州校友会
+- 华人事业互助会
+- 华美信息存储协会
+- JayW Salon</p>

@@ -1,0 +1,47 @@
+Espresso: LinkedIn’s Distributed Database (Yun Sun)
+23 Apr 2016
+1:30PM ~ 4:00PM, 04/23/2016, Saturday
+Tags: technical, TechM
+
+* Registration
+- Registration link: [[https://tech-meetup-04-23-2016.eventbrite.com/]]
+- Event link: [[/espresso-linkedins-distributed-database][Espresso: LinkedIn’s Distributed Database]]
+
+* Event Info
+- Time: 1:30PM ~ 4:00PM, 04/23/2016, Saturday
+- Location: 97 E Brokaw Rd, Suite 210, San Jose, CA 95112
+
+* Agenda
+- 1:30pm – 2:00pm: Reception and social time
+- 2:00pm – 3:30pm: Talk and QA
+- 3:30pm – 4:00pm: offline networking
+
+* Abstract
+Espresso is a document-oriented distributed data serving platform that has been built to address LinkedIn's requirements for a  scalable, performant, source-of-truth primary store. It provides a hierarchical document model, transactional support for modications to related documents, real-time secondary indexing, on-the-fly schema evolution and provides a timeline consistent change capture stream.
+
+Espresso has been serving as LinkedIn's online, distributed, fault-tolerant NoSQL database which currently powers approximately 30 LinkedIn applications including Member Profile, InMail (LinkedIn's member-to-member messaging system), portions of the Homepage and mobile applications, etc. Espresso has a large production footprint at LinkedIn with over a dozen clusters in use. It hosts some of the most heavily accessed and valuable datasets at LinkedIn serving millions of records per second at peak. It is the source of truth for hundreds of terabytes (not counting replicas) of data.
+
+In this talk, our speaker will share the motivation and design principles involved in  building  Espresso,  the data model and capabilities exposed to clients, details of the replication and secondary indexing implementation, etc.
+
+* Speaker’ bio
+Yun Sun is a Staff Engineer and technical lead of Espresso team within LinkedIn's Data Infra team. He has been one of the primary contributors in building and optimizing Espresso for over 5 years.
+
+* Language:
+Chinese
+
+* 主办
+- [[http://tech-meetup.com][湾区同学技术沙龙 (tech-meetup.com)]]
+
+* 协办
+- 南京大学硅谷校友会
+- 瀚海硅谷科技园
+- 硅谷清华联网
+- 中国科技大学校友会创业俱乐部
+- 浙江大学校友会海纳创新创业俱乐部
+- 北京大学北加州校友会
+- 武汉大学北加州校友会
+- 东南大学硅谷校友会
+- 吉林大学硅谷校友会
+- 复旦大学北加州校友会
+- 北加州华中科技大学校友会
+- 华人事业互助会

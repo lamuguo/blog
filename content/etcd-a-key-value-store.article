@@ -1,0 +1,44 @@
+Etcd: A key-value store Open Source for Data consistency, Data persistency, Data synchronization in Distributed system (Xiang Li)
+27 Feb 2016
+1:30PM ~ 4:00PM, 02/27/2016, Saturday
+Tags: technical, TechM
+
+* Registration
+- Registration link: [[https://tech-meetup-02-27-2016.eventbrite.com/]]
+- Event link: [[/etcd-a-key-value-store][Etcd: A key-value store]]
+
+* Event Info
+- Time: 1:30PM ~ 4:00PM, 02/27/2016, Saturday
+- Location: 97 E Brokaw Rd, Suite 210, San Jose, CA 95112
+
+* Agenda
+- 1:30pm – 2:00pm: Reception and social time
+- 2:00pm – 3:30pm: Talk and QA
+- 3:30pm – 4:00pm: offline networking
+
+* Abstract
+The ability to run resilient, hyperscale infrastructure today means running it in a distributed way. But building distributed systems is complex and can be a challenge because one of the essential elements includes removing any single point of failure. The answer? Powering these systems with a reliable, distributed database, designed to ensure your infrastructure stays up and running even when individual servers fail.
+
+Etcd is an open source distributed consistent key-value store written in Go that was introduced by the team at CoreOS. It is now one of the most popular open source projects on github. Since its release in 2013 it has become a mature cornerstone of a variety of distributed systems for doing networking, service discovery, configuration management and load balancing. This talk will describe etcd, its history, its new design, and some of its production use cases.
+
+* Speaker’ bio
+Xiang Li is a software engineer at CoreOS. He leads the development of etcd project. He also works on large scale cluster management system and storage system. He is passionate about research and development in distributed systems.
+
+* Language:
+Chinese
+
+* 主办
+- [[http://tech-meetup.com][湾区同学技术沙龙 (tech-meetup.com)]]
+
+* 协办
+- 南京大学硅谷校友会
+- 瀚海硅谷科技园
+- 硅谷清华联网
+- 中国科技大学校友会创业俱乐部
+- 浙江大学校友会海纳创新创业俱乐部
+- 北京大学北加州校友会
+- 武汉大学北加州校友会
+- 东南大学硅谷校友会
+- 吉林大学硅谷校友会
+- 复旦大学北加州校友会
+- 华人事业互助会

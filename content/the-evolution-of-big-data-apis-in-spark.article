@@ -1,0 +1,48 @@
+The Evolution of Big Data APIs in Spark (Reynold Xin)
+23 Jul 2016
+1:30PM ~ 4:00PM, 07/23//2016, Saturday
+Tags: technology, TechM
+
+* Registration
+- Registration link: [[http://tech-meetup.com/events/07-23-2016/]]
+- Event link: [[/the-evolution-of-big-data-apis-in-spark]]
+
+* Event Info
+- Time: 1:30PM ~ 4:00PM, 07/23//2016, Saturday
+- Location: 1069 East Meadow Circle, Sofia U Auditorium, Palo Alto, CA, 94303
+
+* Agenda:
+- 1:30pm - 2:00pm: Registration and social time
+- 2:00pm - 3:30pm: Talk and QA
+- 3:30pm - 4:00pm: offline networking
+
+* Abstract:
+Apache Spark has aimed from the beginning to provide a high-level API for diverse big data workloads. In the past two years, Spark has seen some of the largest API additions since it began in order to meet this goal. In particular, while Spark started out with a functional API based on collections of Java/Python objects, a new series of "structured APIs" including DataFrames, Spark SQL and Structured Streaming are introducing a much more declarative layer that is simultaneously more optimizable. Underneath these APIs, the engine can understand the structure of the data and of user queries, and applies rich optimizations to both computation and storage that are typically not common big data processing frameworks, such as relational optimizations, columnar storage, and code generation. Moreover, these optimizations automatically apply across Spark libraries, including third-party data sources and packages. I will discuss the rationale and design of these APIs, as well as recent additions in this area, such as the incremental Structured Streaming API that provides a simple way to reason about out-of-order data, connections with external systems, and failures.
+
+* Speaker’ bio:
+Reynold Xin is a co-founder and Chief Architect at Databricks. He is also an Apache Spark PMC member and release manager for Spark's 2.0 release. Prior to Databricks, he was pursuing PhD research at the UC Berkeley AMPLab, where he worked on large-scale data processing.
+
+- Weibo: hashjoin
+- Twitter: rxin
+
+* Language:
+Chinese
+
+* 主办
+- [[http://tech-meetup.com][湾区同学技术沙龙 (tech-meetup.com)]]
+
+* 协办
+- 南京大学硅谷校友会
+- 硅谷清华联网
+- 索菲亚大学（Sofia University, Palo Alto, CA)
+- 瀚海硅谷科技园
+- 中国科技大学校友会创业俱乐部
+- 浙江大学校友会海纳创新创业俱乐部
+- 北京大学北加州校友会
+- 北京航空航天大学硅谷校友会
+- 武汉大学北加州校友会
+- 东南大学硅谷校友会
+- 吉林大学硅谷校友会
+- 复旦大学北加州校友会
+- 北加州华中科技大学校友会
+- 华人事业互助会

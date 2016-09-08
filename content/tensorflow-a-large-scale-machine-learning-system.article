@@ -1,0 +1,67 @@
+TensorFlow: A Large-Scale Machine Learning System (Zhifeng Chen)
+05 Jun 2016
+1:30PM ~ 4:00PM, 06/05/2015, Sunday
+Tags: technical, TechM
+
+* Registration
+- Registration link: [[http://tech-meetup-06-05-2016.eventbrite.com/]]
+- Event link: [[/tensorflow-a-large-scale-machine-learning-system]]
+
+* Event Info
+- Time: 1:30PM ~ 4:00PM, 07/23/2016,  Saturday
+- Location: 1069 East Meadow Circle, Sofia U Auditorium, Palo Alto, CA, 94303
+
+* Agenda
+- 1:30pm - 2:00pm: Reception and social time
+- 2:00pm - 3:30pm: Talk and QA
+- 3:30pm - 4:00pm: offline networking
+
+* Abstract
+Neural networks and machine learning in general have enjoyed a massive come-back over the last 10 years. In both academia and industry, they have now become mainstream and continue to make large improvements in many artificial intelligence areas such as image recognition, speech recognition and synthesis, machine translation, natural language processing, etc.  To satisfy the increasing demand of both research and application, Google Brain has developed its next generation machine learning infrastructure, TensorFlow™, since late 2014 and made it public available (<a href="http://tensorflow.org/" target="_blank" rel="nofollow">tensorflow.org</a>) as an open source software in late 2015.  This talk will describe TensorFlow’s programming model, system architecture and recent applications.
+
+* Speaker’ bio
+Zhifeng Chen is a software engineer on Google Brain working on TensorFlow. Before joining Google Brain, he worked on large-scale distributed storage systems which powers Google Search and Gmail. Outside of work, he loves spending time with his wife and daughter.
+
+* Language:
+Chinese
+
+* 主办
+- [[http://tech-meetup.com][湾区同学技术沙龙 (tech-meetup.com)]]
+
+* 协办
+- 南京大学硅谷校友会
+- 硅谷清华联网
+- 索菲亚大学（Sofia University, Palo Alto, CA)
+- 瀚海硅谷科技园
+- 中国科技大学校友会创业俱乐部
+- 浙江大学校友会海纳创新创业俱乐部
+- 北京大学北加州校友会
+- 北京航空航天大学硅谷校友会
+- 武汉大学北加州校友会
+- 东南大学硅谷校友会
+- 吉林大学硅谷校友会
+- 复旦大学北加州校友会
+- 北加州华中科技大学校友会
+- 华人事业互助会
+
+* Materials
+- Youtube: [[https://www.youtube.com/watch?v=AiBQO6UBIek]]
+- Slides: [[https://docs.google.com/presentation/d/1TSUHtYRSUUUWrS01caNqegYNA3gY6MJrpuZMo1pOCUU/edit?usp=sharing]]
+
+* 活动小结（by Huichao Zhao）
+
+“人工智能 AlphaGo 再胜李世石，总比分 4:1 傲视全人类”， 这是今年三月份Google AlphaGo 与李世石的人机大战 之后的某家媒体的标题，相信大家仍然记忆犹新。
+
+深度学习，人工智能领域中的超级明星；TensorFlow, Google Brain出品的开源深度学习引擎，这些关键词都让今天的技术沙龙活动异常热闹。下面是关于今天Zhifeng报告内容的简单回顾和总结。
+
+在了解Tensorflow 之前，允许我再科普下深度学习。简单来讲，就是机器通过模拟大脑神经元的组织和传递原理，构建学习网络并使其能够自主给出判断和决策。而传统机器学习算法的好坏很大程度上依赖于在输入数据的特征提取的好坏，而深度学习真正解放了 Feature Engineering， 使其在人工智能领域大放异彩。
+
+下面回到正题。TensorFlow,正如其名，是以张量为节点，通过引入数据流图来表征数据，组织计算流程来构建深度学习的计算引擎，以C++为内核语言，支持Python和C++前端，同时支持异构设备分布式计算，包括 智能手机移动平台，CPU和GPU等可构建大规模分布式计算平台。而对于深度学习背后的学习优化算法，报告中也简单进行了列举，如常见的SGD，Adagrad, RMSProp等，可以看出已经涵盖当前主要算法。
+
+为了解释深度学习在分布式计算中的特点和应用技巧，Zhifeng 同样对传统人工神经网络进行了介绍，接下来重点对模型的并行化（其中通过对一幅图像的切分处理，分别赋予不同模型进行训练最后进行模型合并）和数据并行化（对不同分区的数据用同一个模型进行训练，单模型的参数更新需要通过参数服务器进行同步管理）进行了解释说明。当然这部分的理解较为关键，现场观众也对此进行了讨论。TensorFlow 在去年12月份发布时只有开源版本，而今年4月份分布式版本发布才从真正意义上可以将其部署到生产环境中。
+
+说到深度学习的模型，报告中以LSTM(Long Short-Term Memory Networks)(属于递归神经网络RNN的进过算法优化的一种网络结构)进行了举例说明，该模型通过对神经元进行结构升级，使的处于隐含层的cell具有memory功能,从而可以实现对时间序列数据的学习和预测。而报告中真正精华的部分则是如何将LSTM模型部署到拥有6个GPU的计算平台实现一个字符串序列的学习和预测，通过动画形象展示了各层神经元参数在各自占有的GPU上的逐步传递和更新过程。当然这部分的理解需要读者补充更多关于神经网络Forward Propagation前向传播和 后向传播 Back Propagation 的知识。
+
+总的来说报告内容从宏观上介绍了TensorFlow计算引擎的如下特点， 以张量（Tensor）对数据进行抽象表征，以数据流图（Flow）进行深度学习模型进行构建，同时支持RMSProp在内的主流优化学习算法，可以实现对CNN，RNN等深度学习模型的分布式部署和应用。既然是Google出品，而且又是开源，为什么动手试试呢。
+
+最后感谢Zhifeng 两个小时的精彩报告和耐心解答，各位看官共勉！

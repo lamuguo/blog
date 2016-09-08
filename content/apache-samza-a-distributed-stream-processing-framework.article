@@ -1,0 +1,43 @@
+Apache Samza: a distributed stream processing framework (Yi Pan)
+21 Jun 2015
+1:30PM ~ 3:30PM, 06/21/2015, Sunday
+Tags: technical, TechM
+
+* Registration
+- Registration link: [[http://tech-meetup-6-21-2015.eventbrite.com/]]
+- Event link: [[/apache-samza-a-distributed-stream-processing-framework][Apache Samza: a distributed stream processing framework.]]
+
+* Event Info
+- Language: Chinese
+- Time: 1:30PM ~ 3:30PM, 06/21/2015, Sunday
+- Location: 97 E Brokaw Rd, Ste 210, San Jose, CA 95112
+
+* Agenda
+- 1:30pm – 2:00pm: Reception and social time
+- 2:00pm – 3:30pm: Talk and QA
+- 3:30pm – 4:00pm: offline networking
+
+* Abstract
+Apache Samza is an open source stream processing framework designed for continuous data processing. Unlike batch processing systems such as Hadoop which typically has high-latency responses (sometimes hours), Samza continuously computes results as data arrives which makes sub-second response times possible. Samza has some unique features that make it powerful. It provides high performance for stateful processing jobs, including aggregation and joins between many input streams. It is designed to support an ecosystem of many different jobs written by different teams, and it isolates them from each other, so that one badly behaved job can’t affect the others.
+
+At LinkedIn, we have been using Samza in production both for internal analytic purposes and for data products that are served on the live site. In this talk, we will focus on detailed architecture of Samza, and comparison with other major open-sourced streaming process frameworks.
+
+* Speaker’ bio
+Yi Pan is a Staff Engineer and one of the Technical Leads in Data infrastructure team at LinkedIn. He has been a major contributor to Samza project at LinkedIn.
+
+* 主办
+- [[http://tech-meetup.com][湾区同学技术沙龙 (tech-meetup.com)]]
+
+* 协办
+- 南京大学硅谷校友会
+- 瀚海硅谷科技园
+- 硅谷清华联网
+- 中国科技大学校友会创业俱乐部
+- 浙江大学校友会海纳创新创业俱乐部
+- 北京大学北加州校友会
+- 武汉大学北加州校友会
+- 东南大学硅谷校友会
+- 吉林大学硅谷校友会
+- 复旦大学北加州校友会
+- 华人事业互助会
+- 华美信息存储协会
