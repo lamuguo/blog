@@ -22,7 +22,7 @@ import (
 const hostname = "blog.golang.org" // default hostname for blog server
 
 var (
-	httpAddr = flag.String("http", "localhost:8080", "HTTP listen address")
+	httpAddr = flag.String("http", "0.0.0.0:8080", "HTTP listen address")
 	barContentPath = flag.String("bar", "bar/", "path to bar content files")
 	contentPath = flag.String("content", "content/", "path to content files")
 	templatePath = flag.String("template", "template/", "path to template files")
