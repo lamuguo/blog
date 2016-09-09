@@ -48,6 +48,9 @@
 		#content img {
 			max-width: 100%;
 		}
+		.top-heading {
+		    padding: 10px 0 10px 0;
+		}
 	</style>
 </head>
 <body>
@@ -55,10 +58,10 @@
 <div id="topbar"><div class="container">
 
 <div class="top-heading" id="heading-wide">
-    <a href="{{.BasePath}}/">Silicon Valley Chinese Tech-Meetup (TechM) </a>
+    <a href="{{.BasePath}}/"><img src="/static/logo.png" height="50px" width="auto"></a>
 </div>
 <div class="top-heading" id="heading-narrow">
-    <a href="{{.BasePath}}/">TechM</a>
+    <a href="{{.BasePath}}/"><img src="/static/logo.png" height="50px" width="auto"></a>
 </div>
 <a href="#" id="menu-button"><span id="menu-button-arrow">&#9661;</span></a>
 <form method="GET" action="{{.BasePath}}/search">
@@ -75,10 +78,6 @@
 
 <div id="page">
 <div class="container">
-
-<div id="sidebar">
-    <img src="/static/logo.png" height="50px" width="auto">
-</div>
 
 <div id="content">
 	<h1><a href="{{.BasePath}}/">湾区同学技术沙龙</a></h1>
