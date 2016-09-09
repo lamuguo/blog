@@ -12,13 +12,14 @@
 	<link rel="alternate" type="application/atom+xml" title="blog.golang.org - Atom Feed" href="//blog.golang.org/feed.atom" />
 	<script type="text/javascript">window.initFuncs = [];</script>
 	<style>
-		#sidebar {
-/*			float: right;*/
-			padding-left: 20px;
+	    .top-heading {
+	      padding: 0;
+	    }
+		#sidebar img{
 			width: 40%;
 			max-width: 250px;
 			background: #F3F3F3;
-			margin: 20px 0 20px 20px;
+			margin: 0;
 		}
 		#sidebar ul {
 			padding: 0;
@@ -55,7 +56,9 @@
 <div id="topbar"><div class="container">
 
 <div class="top-heading" id="heading-wide">
-    <a href="{{.BasePath}}/">Silicon Valley Chinese Tech-Meetup (TechM) </a>
+    <div id="sidebar">
+      <img src="./static/logo.png">
+    </div>
 </div>
 <div class="top-heading" id="heading-narrow">
     <a href="{{.BasePath}}/">TechM</a>
@@ -75,10 +78,6 @@
 
 <div id="page">
 <div class="container">
-
-<div id="sidebar">
-    <img src="/static/logo.png" height="50px" width="auto">
-</div>
 
 <div id="content">
 	<h1><a href="{{.BasePath}}/">湾区同学技术沙龙</a></h1>
