@@ -24,7 +24,7 @@ const hostname = "blog.golang.org" // default hostname for blog server
 var (
 	httpAddr = flag.String("http", "0.0.0.0:8080", "HTTP listen address")
 	barContentPath = flag.String("bar", "bar/", "path to bar content files")
-	contentPath = flag.String("content", "content/", "path to content files")
+	contentPath = flag.String("content", "event/", "path to content files")
 	templatePath = flag.String("template", "template/", "path to template files")
 	staticPath = flag.String("static", "static/", "path to static files")
 
@@ -39,18 +39,6 @@ var (
 	}
 )
 
-func init() {
-	// Redirect "/blog/" to "/", because the menu bar link is to "/blog/"
-	// but we're serving from the root.
-	redirect := func(w http.ResponseWriter, r *http.Request) {
-		http.Redirect(w, r, "/", http.StatusFound)
-	}
-	http.HandleFunc("/blog", redirect)
-	http.HandleFunc("/blog/", redirect)
-
-	http.Handle("/lib/godoc/", http.StripPrefix("/lib/godoc/", http.HandlerFunc(staticHandler)))
-}
-
 func staticHandler(w http.ResponseWriter, r *http.Request) {
 	name := r.URL.Path
 	b, ok := static.Files[name]
@@ -64,11 +52,11 @@ func staticHandler(w http.ResponseWriter, r *http.Request) {
 func serveBlog(prefix string, contentPath string) {
 	blogConfig := blog.Config{
 		Hostname: hostname,
-		BaseURL: "//" + hostname,
+		BaseURL: "//" + hostname + prefix,
 		HomeArticles: 5,
 		FeedArticles: 10,
 		PlayEnabled: true,
-		FeedTitle: "unimportant",
+		FeedTitle: "TechM",
 		ContentPath: contentPath,
 		TemplatePath: *templatePath,
 	}
@@ -80,13 +68,33 @@ func serveBlog(prefix string, contentPath string) {
 	http.Handle(prefix + "/", http.StripPrefix(prefix, s2))
 }
 
+func redirectToBarPath(path string) {
+	http.HandleFunc(path, func(w http.ResponseWriter, r *http.Request) {
+		http.Redirect(w, r, "/bar" + path, http.StatusFound)
+	})
+}
+
 func main() {
 	flag.Parse()
+
+	http.Handle("/lib/godoc/", http.StripPrefix("/lib/godoc/", http.HandlerFunc(staticHandler)))
 
 	serveBlog("/bar", *barContentPath)
 	serveBlog("", *contentPath)
 
+	redirectToBarPath("/about")
+	redirectToBarPath("/groups")
+	redirectToBarPath("/organizors")
+	redirectToBarPath("/wechat")
+
+
 	log.Printf("xfguo: hello world\n")
+	//
+	//redirect := func(w http.ResponseWriter, r *http.Request) {
+	//	http.Redirect(w, r, "/event/", http.StatusFound)
+	//}
+	//http.HandleFunc("/", redirect)
+	//http.HandleFunc("/blog/", redirect)
 
 	fs := http.FileServer(http.Dir(*staticPath))
 	http.Handle("/static/", http.StripPrefix("/static/", fs))
