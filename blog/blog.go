@@ -84,7 +84,7 @@ func main() {
 
 	redirectToBarPath("/about")
 	redirectToBarPath("/groups")
-	redirectToBarPath("/organizors")
+	redirectToBarPath("/members")
 	redirectToBarPath("/wechat")
 
 
