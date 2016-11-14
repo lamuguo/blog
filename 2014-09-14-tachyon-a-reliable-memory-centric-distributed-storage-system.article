@@ -1,0 +1,26 @@
+Tachyon: A Reliable Memory-Centric Distributed Storage System (李浩源)
+14 Sep 2014
+1:30PM ~ 4:00PM, 09/14/2014，Sunday
+Tags: technical, TechM
+
+* Registration
+- Event link: [[/2014-09-14-tachyon-a-reliable-memory-centric-distributed-storage-system][Tachyon: A Reliable Memory-Centric Distributed Storage System]]
+
+* Event Info
+- Language: Chinese
+- Time: 1:30PM ~ 4:00PM, 09/14/2014，Sunday
+- Location: MTV-46-1-Tierra del Fuego (216) VC, Google building 46, 1565 Charleston Rd, Mountain View, CA 94043
+
+* Agenda
+- 1:30pm – 2:00pm: Reception and social time
+- 2:00pm – 3:30pm: Talk and QA
+- 3:30pm – 4:00pm: offline networking
+
+* Abstract
+首先简要的全面介绍一下“Berkeley Data Analytics Stack(BDAS)”。这是UC Berkeley AMPLab开发的系统，包括著名的Apache Mesos和Apache Spark等。接下来，浩源会详细介绍他领导开发的Tachyon系统，是一个memory centric fault-tolerant distributed storage system, which enables reliable file sharing at memory-speed across cluster frameworks, such as Spark and MapReduce。Tachyon是BDAS中新成员，开源一年半以来，有超过50个贡献人来自大于15家不同的公司，并且已经在数十家公司部署。
+
+* Speaker’ bio
+李浩源, 加州大学伯克利分校（UC Berkeley） 计算机系AMPLab博士生，专注于计算机系统以及大数据的研究。师从Dr. Scott Shenker和Dr. Ion Stoica两位教授。在校期间，创建了Tachyon系统以及SparkStreaming系统，是Apache Spark founding committer，伯克利大数据处理平台（BDAS）主要研发者之一。曾在Google和Conviva从事大数据处理挖掘的研发工作，所研发的PFP-Growth大数据挖掘算法被Apache Mahout所采用。李浩源拥有北京大学学士学位以及康奈尔(Cornell)大学硕士学位。
+
+* 主办
+- [[http://tech-meetup.com][湾区同学技术沙龙 (tech-meetup.com)]]
