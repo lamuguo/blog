@@ -7,13 +7,19 @@
 package main
 
 import (
+	"errors"
 	"flag"
+	"html/template"
 	"log"
 	"net/http"
+	"path/filepath"
 	"strings"
 	"time"
 
+	"github.com/microcosm-cc/bluemonday"
+	"github.com/russross/blackfriday"
 	"golang.org/x/tools/blog"
+	"golang.org/x/tools/present"
 	"golang.org/x/tools/godoc/static"
 
 	_ "golang.org/x/tools/playground"
@@ -38,6 +44,34 @@ var (
 		FeedTitle:    "Weekend Chinese Tech Meetup",
 	}
 )
+
+func init() {
+	present.Register("md", parseMarkdown)
+}
+
+type Markdown struct {
+	template.HTML
+}
+
+func (i Markdown) TemplateName() string { return "md" }
+
+func parseMarkdown(ctx *present.Context, fileName string, lineno int, text string) (present.Elem, error) {
+	p := strings.Fields(text)
+	if len(p) != 2 {
+		return nil, errors.New("invalid .md args")
+	}
+	name := filepath.Join(filepath.Dir(fileName), p[1])
+	b, err := ctx.ReadFile(name)
+	if err != nil {
+		return nil, err
+	}
+
+	unsafe := blackfriday.MarkdownCommon(b)
+	html := bluemonday.UGCPolicy().SanitizeBytes(unsafe)
+
+	// TODO(lamuguo): don't use "present.HTML" here.
+	return Markdown{template.HTML(html)}, nil
+}
 
 func staticHandler(w http.ResponseWriter, r *http.Request) {
 	name := r.URL.Path
