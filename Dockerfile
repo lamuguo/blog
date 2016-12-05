@@ -7,12 +7,8 @@ ADD . /go/src/github.com/lamuguo/blog
 
 WORKDIR /go/src/github.com/lamuguo/blog
 
-RUN go get golang.org/x/tools/blog
-
-# Build the outyet command inside the container.
-# (You may fetch or manage dependencies here,
-# either manually or with a tool like "godep".)
-RUN go install github.com/lamuguo/blog/blog
+RUN go get -v github.com/lamuguo/blog/blog && \
+    go install github.com/lamuguo/blog/blog
 
 # Run the outyet command by default when the container starts.
 ENTRYPOINT /go/bin/blog
