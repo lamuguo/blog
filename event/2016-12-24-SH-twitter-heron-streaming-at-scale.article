@@ -19,6 +19,7 @@ Tags: technical, TechM
 
 * Event Introduction
 Heron在2014年底已经完全取代Storm成为了Twitter新一代的实时计算框架。项目已开源，除了Twitter外，主要contributors还包括Microsoft, Stanford Univeristy等。这次我将主要分享：
+
 - 实时计算的需求
 - Heron的设计
 - Heron的实践
