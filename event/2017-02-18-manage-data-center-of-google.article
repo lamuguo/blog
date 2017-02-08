@@ -1,0 +1,39 @@
+(Shanghai) Google SRE如何管理数据中心
+18 Feb 2017
+1:30 PM – 4:00 PM, 1/22/2017, Sunday
+Tags: technical, TechM
+
+* Registration
+- Registration link: [[http://www.huodongxing.com/event/7373659519800]]
+- Event link: [[/2017-02-18-manage-data-center-of-google][(Shanghai) Google SRE如何管理数据中心]]
+
+* Event Info
+- Language: Chinese
+- Time: 1:30PM ～ 4:00PM, 02/18/2017, Saturday
+- Location: 上海华东师范大学中北校区数学馆201
+.image static/ecnu-map.jpg 200 200
+
+* Agenda
+- 1:30pm - 2:00pm: Reception and social time
+- 2:00pm - 3:30pm: Talk and QA
+- 3:30pm - 4:00pm: offline networking
+
+* Abstract
+Google大约有上百个数据中心，拥有数百万台服务器，资源管理对于Google如此庞大规模的数据中心来说是重中之重。Google数据中心的资源主要由Site Reliability Enginerring (SRE) 团队来管理，SRE团队为数据中心的资源利用率负责。
+
+SRE团队分为两个部分，Borg SRE和App SRE。Borg SRE专职维护Borg系统（Borg是Google内部的应用管理和资源分配平台），给Google各个内外部业务系统分配资源，每个重要的业务部门有相应的资源配额；App SRE负责不同内外部业务系统的稳定性和性能，业务部门的App SRE把各自业务系统的资源再分配给系统内相应的应用。
+
+为了提高数据中心资源利用率，SRE对数据中心的资源进行超卖，并对不同的业务应用分配不同的优先级，高优先级的应用可以抢占低优先级应用的资源，应用的优先级需要根据业务应用的重要性来判定。本次将分享Google SRE对数据中心的管理实践。
+
+* Speaker Bio
+王璞
+.image static/20170218/puwang.jpg 200 130
+数人云创始人兼CEO，美国 George Mason 大学计算机博士。曾先后供职于 Google、Groupon 和 StumbleUpon 等硅谷互联网公司。擅长分布式计算、大规模机器学习、海量数据处理。曾担任 Google 广告部门数据平台构架师，负责管理每秒访问量全球最高的架构平台。
+
+相关介绍：[[http://finance.eastmoney.com/news/1667,20170204707844133.html][企业级云操作系统数人云完成5000万元A+轮融资]]
+
+* 主办
+- [[http://tech-meetup.com][湾区同学技术沙龙 (TechM Shanghai)]]
+
+* 协办
+- 南京大学硅谷校友会
