@@ -4,11 +4,15 @@
 * Weizhao Wang, Google Engineer
 * Lei Xia, Linkedin Engineer
 
-#### Volunteer
+#### Organizors
 * Ruijun Fu, Google Engineer
+* 小艾（wechat)
+* Mengning Zhou
+* Tom Tang
+
+#### Volunteer
 * Hao Xu, in a startup
-* Tom Tang, Huawei Engineer
-* ...... (we have about 20 volunteers, Thanks for your continuous contribution to the event)
+* ...... (we have 30+ volunteers, Thanks for your continuous contribution to the meetup)
 
 #### Advisors
 * Xiao Zhang, Google Engineer (Borg TL)

@@ -33,6 +33,7 @@ var (
 	contentPath = flag.String("content", "event/", "path to content files")
 	templatePath = flag.String("template", "template/", "path to template files")
 	staticPath = flag.String("static", "static/", "path to static files")
+	vhostMap = flag.String("vhost_map", "testing.domain:8080=testing/|lamuguo-ennew:8080=lamuguo/", "map of hosting blogs")
 
 	config = blog.Config{
 		Hostname:     hostname,
@@ -83,10 +84,10 @@ func staticHandler(w http.ResponseWriter, r *http.Request) {
 	http.ServeContent(w, r, name, time.Time{}, strings.NewReader(b))
 }
 
-func serveBlog(prefix string, contentPath string) {
+func serveBlog(hostport string, prefix string, contentPath string) {
 	blogConfig := blog.Config{
-		Hostname: hostname,
-		BaseURL: "//" + hostname + prefix,
+		Hostname: hostport,
+		BaseURL: "//" + hostport + prefix,
 		HomeArticles: 5,
 		FeedArticles: 10,
 		PlayEnabled: true,
@@ -99,38 +100,44 @@ func serveBlog(prefix string, contentPath string) {
 	if err != nil {
 		log.Fatal(err)
 	}
-	http.Handle(prefix + "/", http.StripPrefix(prefix, s2))
+	http.Handle(hostport + prefix + "/", http.StripPrefix(prefix, s2))
 }
 
-func redirectToBarPath(path string) {
-	http.HandleFunc(path, func(w http.ResponseWriter, r *http.Request) {
+func redirectToBarPath(hostport, path string) {
+	http.HandleFunc(hostport + path, func(w http.ResponseWriter, r *http.Request) {
 		http.Redirect(w, r, "/bar" + path, http.StatusFound)
 	})
+}
+
+func createServer(hostport string, contentPath string) {
+	http.Handle(hostport + "/lib/godoc/", http.StripPrefix("/lib/godoc/", http.HandlerFunc(staticHandler)))
+
+	serveBlog(hostport, "/bar", *barContentPath)
+	serveBlog(hostport, "", contentPath)
+
+	redirectToBarPath(hostport, "/about")
+	redirectToBarPath(hostport, "/groups")
+	redirectToBarPath(hostport, "/members")
+	redirectToBarPath(hostport, "/wechat")
+
+	fs := http.FileServer(http.Dir(*staticPath))
+	http.Handle(hostport + "/static/", http.StripPrefix("/static/", fs))
 }
 
 func main() {
 	flag.Parse()
 
-	http.Handle("/lib/godoc/", http.StripPrefix("/lib/godoc/", http.HandlerFunc(staticHandler)))
+	createServer("", *contentPath)
 
-	serveBlog("/bar", *barContentPath)
-	serveBlog("", *contentPath)
+	for _, data := range strings.Split(*vhostMap, "|") {
+		items := strings.Split(data, "=")
+		if len(items) != 2 {
+			continue
+		}
+		createServer(items[0], items[1])
+	}
+	//createServer("lamuguo-ennew:8080", "lamuguo/")
 
-	redirectToBarPath("/about")
-	redirectToBarPath("/groups")
-	redirectToBarPath("/members")
-	redirectToBarPath("/wechat")
-
-
-	log.Printf("xfguo: hello world\n")
-	//
-	//redirect := func(w http.ResponseWriter, r *http.Request) {
-	//	http.Redirect(w, r, "/event/", http.StatusFound)
-	//}
-	//http.HandleFunc("/", redirect)
-	//http.HandleFunc("/blog/", redirect)
-
-	fs := http.FileServer(http.Dir(*staticPath))
-	http.Handle("/static/", http.StripPrefix("/static/", fs))
+	log.Printf("xfguo: starting server...\n")
 	log.Fatal(http.ListenAndServe(*httpAddr, nil))
 }

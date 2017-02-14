@@ -2,6 +2,33 @@ Groups
 9 May 2016
 Tags: rules, TechM
 
+* 微信大群
+请在微信里搜id: "Tech-meetup"，说明是meetup，并提供“姓名/职位/公司”如“meetup 王五/SWE/Google"。暂定群规如下：
+
+现在各种群太多， 本群专注技术讨论， 请不要进行跟技术无关的发帖和讨论，包括不限于：鸡汤帖、内推帖、调侃帖、非技术类信息新闻贴、奇怪图片帖、政治讨论、职场讨论、生活讨论。我们不是反对华人在美国争取政治权益，在职场中脱颖而出，只是每个topic都应有专门的群，这样才能深入，我们不希望本群变成杂烩群。
+
+现在很多朋友认可我们的成员（也就是大家）的素质，希望利用我们这个平台招人和发布活动。但是招人帖、活动贴越多，离我们的主旨就越远，mute的人也会越多，带给发布者带来直接利益的同时，也少了一盏照亮发布者的路灯。
+
+因此，招人帖和活动贴务必先将内容提交组织者，组织者同意才可发帖，发帖时并请发红包。考虑到本群的人数和层次，低于20刀的红包就不要发了。Hiring manager自己招人请明确介绍team情况，在做什么，留公司邮箱，免红包。以下四方对我们进行了很多嘉宾/场地/资金方面的支持，一直尊重我们这个平台，我们深表感激，发帖无需经群主同意和发红包：瀚海@田军，阿里的几位HR，以及为我们活动积极捐款的朋友和组织者们。
+
+* 微信技术小群
+对于小群大致规划下，我们暂定开设以下方面的群，并附带各自申请的email地址，如下：
+
+- BigData: [[email:svtechmeetup+cloud@gmail.com][svtechmeetup+cloud@gmail.com]] （负责人郭晓峰） 讨论内容包括kubernetes / etcd  /storm / samza / OLAP / OLTP / ...
+- AI/ML: [[email:svtechmeetup+ml@gmail.com][svtechmeetup+ml@gmail.com]] （暂时负责人Weizhao）讨论内容包括所有人工智能相关信息。
+- VR: [[email:svtechmeetup+vr@gmail.com][svtechmeetup+vr@gmail.com]] （负责人 Guodong）讨论内容包括所有VR相关信息。
+
+大家对各自对应方向如有兴趣的话，请发送邮件到对应email地址，并简单加入下列信息：
+
+- 你的linkedin page；或
+- 你之前做过的相关领域项目的描述、报告或者文章。
+
+各群都会有一个committee对你的资格进行审查，如果合适的话，将会有负责的同学发送群的QR－code到你的邮箱，邀请你入群。对应群规简介如下：
+
+- 入群的人请不要随意邀请自己的朋友入群。如果你的朋友是也合适人选的话，请把[[/bar/wechat][本帖]]转给你的朋友，让他通过一样的渠道入群。
+- 入群的朋友请把群昵称改成“王五-SWE-Google”格式。
+- 各自小群的群规和尺度由各自小群的群主或者committee负责。
+
 * LinkedIn Group
 - [[https://www.linkedin.com/grp/members?gid=8362423]]
 - 鼓励大家加入我们的linked-in group，这里会是进行serious讨论的地方。
@@ -11,4 +38,4 @@ Tags: rules, TechM
 - [[https://groups.google.com/group/weekend-technical-meetup]]
 - 在申请加入google group之前请填写这份简单的自我介绍（[[http://tiny.cc/wtm-signup]])。大家的email和自我介绍信息会严格保密，不会用做任何商业用途。
 - 这里发帖，请大家submit一个request form，我们core team批准了会告知你。（如果超过24小时没有结果，你可以认为已经批准）如果是我们沙龙协办或者主办的帖子，将由我们的组织者发出。
-- [[https://docs.google.com/spreadsheets/d/19S8gJZXgkjZ97L8YxU_U2gCavHi62WSusMpkxN0i5hE/edit#gid=404036363][申请结果查询]]
+- [[https://docs.google.com/spreadsheets/d/19S8gJZXgkjZ97L8YxU_U2gCavHi62WSusMpkxN0i5hE/edit#gid=404036363][申请结果查询]] (the result is deprecated)
