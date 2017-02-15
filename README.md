@@ -2,13 +2,13 @@
 
 ## Instructions
 ```sh
-# export MEETUP_IMAGE=lamuguo/meetup:20170214
+$ export MEETUP_IMAGE=lamuguo/meetup:20170214
 
-# docker build -t $MEETUP_IMAGE .
-# docker push $MEETUP_IMAGE
-    // if not login, please “docker login -u lamuguo”
+$ docker build -t $MEETUP_IMAGE .
+$ docker push $MEETUP_IMAGE
+    # if not login, please “docker login -u lamuguo”
 
-# docker rm -f meetup && \
+$ docker rm -f meetup && \
   docker run -d --name meetup \
   -p 80:80 \
   --entrypoint /go/bin/blog \
@@ -19,7 +19,7 @@
 
 Notes
 - For using the command, remember to update MEETUP_IMAGE.
-- vhost_map is used for virtual hosting, the string format is: "<vhost1>=<dir1>|<vhost2>=<dir2>|..."
+- vhost_map is used for virtual hosting, the string format is: "\<vhost1>=\<dir1>|\<vhost2>=\<dir2>|..."
 
 ## Useful Links
 - Make sure sites below works correctly:
