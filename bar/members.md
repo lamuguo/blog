@@ -1,4 +1,4 @@
-#### Organizors
+#### Board Members
 * Xiaofeng Guo, Google Engineer
 * Peng Du, Google Engineer
 * Weizhao Wang, Google Engineer

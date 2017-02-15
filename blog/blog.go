@@ -126,6 +126,8 @@ func createServer(hostport string, contentPath string) {
 
 func main() {
 	flag.Parse()
+	log.Printf("xfguo: http = '%v'", *httpAddr)
+	log.Printf("xfguo: vhostMap = '%v'", *vhostMap)
 
 	createServer("", *contentPath)
 
