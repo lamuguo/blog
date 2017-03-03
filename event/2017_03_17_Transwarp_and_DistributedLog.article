@@ -1,0 +1,95 @@
+(Bay Area) Transwarp（星环科技） && DistributedLog
+17 Mar 2017
+6:30 PM – 9:30 PM, 3/17/2017, Friday
+Tags: technical, TechM
+
+* Registration
+- Registration link: [[http://tech-meetup-03-17-2017.eventbrite.com/]]
+- Event link: [[/2017_03_17_Transwarp_and_DistributedLog][(Bay Area) Transwarp（星环科技） && DistributedLog]]
+
+* Event Info
+- Language: Chinese
+- Time: 6:30 PM – 9:30 PM, 3/17/2017, Friday
+- Location: 1059 E Meadow Cl, Room A, Palo Alto, CA 94043
+
+* Agenda
+- 6:30pm - 8:00pm: Key Innovations and Usage Scenarios of Transwarp Data Hub
+- 8:00pm - 9:00pm: Building reliable real-time services with Apache DistributedLog
+- 9:00pm - 9:30pm: Offline Networking
+
+* Talk 1: Key Innovations and Usage Scenarios of Transwarp Data Hub (Transwarp)
+Big data technology is rapidly changing the IT industry in China. Among those technologies, Hadoop is the best-known one and keeps growing its popularity. Transwarp Data Hub (shortened to TDH) has been one of the mainstream Hadoop distribution recognized by Gartner since 2016.  As a one-stop big data platform, TDH has many new cutting-edge technologies which revolutionarily improve the usability, performance and stability so that enterprise can build core business system and create new applications in a more cost-saving and effort-saving manner.  This topic will talk about the technical innovations of TDH, and also brief introduce the usage scenarios for those technique.
+ 
+The topic will cover:
+
+- The SQL engine with full SQL compatibility and extreme performance
+- A in-memory or SSD acclerated columnar store
+- Unified event-driven and batch processing engine for streaming computation
+- Business scenarios for those technique
+
+* Talk 2: Building reliable real-time services with Apache DistributedLog (Sijie, Twitter)
+Apache DistributedLog (incubating) is a low-latency, high-throughput
+replicated log service. Sijie Guo shares how Twitter has used
+DistributedLog as the real-time data foundation in production for
+years, supporting services like distributed databases, pub-sub
+messaging, and real-time stream computing and delivering more than 1.5
+trillion (17 PB) events per day.
+
+Topics include:
+
+- Overview of Apache DistributedLog
+- How Twitter uses DistributedLog to build strong consistency in its databases
+- How Twitter uses DistributedLog for data replication across regions
+- How Twitter uses DistributedLog for pub-sub and real-time stream computing
+- Lessons learned from production
+
+* Speaker Bio
+- Yuanhao Sun, Founder & CTO of Transwarp
+Yuanhao Sun graduated from Nanjing University majored in Computer Science and joined Intel in 2003. Before starting Transwarp, he worked as CTO of Data Center Software Division of Intel Asia-Pacific Research and Development Center in charge of the development and commercialization of Intel's enterprise Hadoop.
+
+Yuanhao left Intel in 2013 to start Transwarp which focus on high-efficiency computing engine and data analysis algorithms on Apache Hadoop. Yuanhao was the founder of Intel's enterprise Hadoop. He led the team to make multiple improvements and enhancements to meet different industry’s needs. Yuanhao and his team made great contribution to big data development in China with hundreds of successful Big Data use cases.
+ 
+- Wanggen Liu, Director of Transwarp
+Wanggen is the R&D director of Transwarp, and responsible for the engineering and production of TDH. He joined Transwarp in 2013 and led the effort of bringing SQL and transactions into TDH; before that he was a chip architecture in NVIDIA and focused on GPU SM performance. He has rich engineering experience in distributed computation, compiler technology and computer architecture.
+
+- Sijie Guo, Messaging Group TL of Twitter
+Sijie ([[https://github.com/sijie]]) is the tech lead of Twitter’s Messaging group, and he is the cocreator of Apache DistributedLog and the PMC chair of Apache BookKeeper as well.
+
+* About Transwarp:
+.image static/20170317/transwarp.jpg 130 200
+Transwarp Technology (Shanghai) Co., Ltd is one of the very few high technology companies in China that have truly mastered essential big data technologies. Transwarp specializes in R&D and service of enterprise big data infrastructure software products which has been positioned furthest for its completeness of vision in the visionaries' quadrant in the Gartner 2016 Magic Quadrant for Data Warehouse and Data Management Solutions for Analytics, also the only vendor from PRC. Transwarp is famous as one of the six mainstream Hadoop Distribution Vendors worldwide. Transwarp products include big data integrated platform ‘Transwarp Data Hub (abbrv. TDH)’, hyper-converged big data appliance ‘TxData Appliance’ and cloud OS ‘Transwarp OS’. So far, TDH has been successfully deployed in China in industries including telecommunications, finance, transportation, utilities as well as public sectors, making Transwarp the big data infrastructure vendor with the most deployments in China.
+
+* 主办
+- [[http://tech-meetup.com][湾区同学技术沙龙(TechM)]]
+
+* 协办
+- 中国科技大学校友会创业俱乐部
+- 南京大学硅谷校友会
+- 中国科大硅谷校友会
+- 北加州清华校友会
+- 瀚海硅谷科技园
+- 硅谷清华联网
+- 浙江大学校友会海纳创新创业俱乐部
+- 北京大学北加州校友会
+- 武汉大学北加州校友会
+- 东南大学硅谷校友会
+- 吉林大学硅谷校友会
+- 复旦大学北加州校友会
+- 华人事业互助会
+- 北加州华中科技大学校友会
+- 北京航空航天大学硅谷校友会
+- 北京邮电大学北美校友会
+- 上海交通大学硅谷校友会
+- 兰州大学北加州校友会
+- 电子科技大学硅谷校友会
+- 旧金山湾区南开校友会
+- 硅谷天津大学校友会
+- 北京理工大学硅谷校友会
+- 安徽大学北美校友会
+- 湖南大学北美校友会
+- 湘潭大学北美校友会
+- 哈工大硅谷校友会
+- 中山大学海外校友联网
+- 长城会 RobotX Space
+- 硅谷商学院
+- 斯坦福中国学生学者联谊会(ACSSS)
