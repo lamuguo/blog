@@ -126,8 +126,8 @@ func createServer(hostport string, contentPath string) {
 
 func main() {
 	flag.Parse()
-	log.Printf("xfguo: http = '%v'", *httpAddr)
-	log.Printf("xfguo: vhostMap = '%v'", *vhostMap)
+	log.Printf("http = '%v'", *httpAddr)
+	log.Printf("vhostMap = '%v'", *vhostMap)
 
 	createServer("", *contentPath)
 
@@ -140,6 +140,6 @@ func main() {
 	}
 	//createServer("lamuguo-ennew:8080", "lamuguo/")
 
-	log.Printf("xfguo: starting server...\n")
+	log.Printf("starting server...\n")
 	log.Fatal(http.ListenAndServe(*httpAddr, nil))
 }

@@ -372,6 +372,21 @@ type rootData struct {
 	Data     interface{}
 }
 
+func (s *Server) filterDocs(prefix string) []*Doc {
+	result := []*Doc{}
+	i := 0
+	for _, doc := range s.docs {
+		if (strings.HasPrefix(doc.Path, prefix)) {
+			result = append(result, doc)
+			i = i + 1
+			if i >= s.cfg.HomeArticles {
+				break
+			}
+		}
+	}
+	return result
+}
+
 // ServeHTTP serves the front, index, and article pages
 // as well as the ATOM and JSON feeds.
 func (s *Server) ServeHTTP(w http.ResponseWriter, r *http.Request) {
@@ -385,6 +400,12 @@ func (s *Server) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 		if len(s.docs) > s.cfg.HomeArticles {
 			d.Data = s.docs[:s.cfg.HomeArticles]
 		}
+		t = s.template.home
+	case "/shanghai":
+		d.Data = s.filterDocs("/shanghai")
+		t = s.template.home
+	case "/bayarea":
+		d.Data = s.filterDocs("/bayarea")
 		t = s.template.home
 	case "/index":
 		d.Data = s.docs
