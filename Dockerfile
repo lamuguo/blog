@@ -7,8 +7,8 @@ ADD . /go/src/github.com/lamuguo/blog
 
 WORKDIR /go/src/github.com/lamuguo/blog
 
-RUN go get -v github.com/lamuguo/blog/blog && \
-    go install github.com/lamuguo/blog/blog
+RUN go get -v github.com/lamuguo/blog && \
+    go install github.com/lamuguo/blog
 
 # Run the outyet command by default when the container starts.
 ENTRYPOINT /go/bin/blog

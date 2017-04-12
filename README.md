@@ -14,7 +14,7 @@ $ docker rm -f meetup && \
   --entrypoint /go/bin/blog \
   $MEETUP_IMAGE \
   -http="0.0.0.0:80" \
-  -vhost_map="blog.tech-meetup.com=testing/|lamuguo.tech-meetup.com=lamuguo"
+  -vhost_map="blog.tech-meetup.com=testing/|lamuguo.tech-meetup.com=lamuguo/"
 ```
 
 Notes
