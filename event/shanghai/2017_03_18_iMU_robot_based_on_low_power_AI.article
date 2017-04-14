@@ -11,7 +11,7 @@ Tags: technical, TechM
 - Language: Chinese
 - Time: 1:30PM ～ 4:00PM, 3/18/2017, Sunday
 - Location: 上海华东师范大学中北校区数学馆201
-.image static/ecnu-map.jpg 200 200
+.image /static/ecnu-map.jpg 200 200
 
 * Agenda
 - 1:30pm - 2:00pm: Reception and social time
@@ -23,7 +23,7 @@ Tags: technical, TechM
 
 * Speaker Bio
 俞天力博士是杭州摩图科技有限公司的联合创始人和CEO。俞博士在上海交通大学和清华大学分别获得电子工程系学士和硕士学位，在2006年于美国UIUC(伊利诺依大学香槟分校)获得电气与计算机工程博士学位。俞博士毕业后，随即加入摩托罗拉公司在美国芝加哥总部的实验室，从事计算机视觉和嵌入式系统的研究，期间带头研发了摩托罗拉第一个具有双目视觉功能的手机原型。2008年，俞博士加入硅谷创业公司like.com时尚搜索引擎，任计算机视觉算法团队负责人，全面负责like.com的视觉搜索算法。2010年like.com被谷歌以1亿美金收购，俞博士也随之加入谷歌广告事业部，任高级科学家，负责商品图片的搜索与识别算法，并与2011年获得谷歌研究院最佳论文奖。2013年俞博士退出谷歌着手创办杭州摩图科技，致力于嵌入式AI的软硬件设计及产品化 ，作为杭州滨江区5050计划的海外引进项目，获得多项政府资助，以及唯品会的pre-A轮投资，摩图科技旗下的小MU机器人系列产品，已经打开在海内外的多个市场。
-.image static/20170318/iMU-robot.jpeg
+.image /static/20170318/iMU-robot.jpeg
 
 * 主办
 - [[http://tech-meetup.com][湾区同学技术沙龙 (TechM Shanghai)]]

@@ -11,7 +11,7 @@ Tags: technical, TechM
 - Language: Chinese
 - Time: 1:30PM ～ 4:00PM, 02/18/2017, Saturday
 - Location: 上海华东师范大学中北校区数学馆201
-.image static/ecnu-map.jpg 200 200
+.image /static/ecnu-map.jpg 200 200
 
 * Agenda
 - 1:30pm - 2:00pm: Reception and social time
@@ -27,7 +27,7 @@ SRE团队分为两个部分，Borg SRE和App SRE。Borg SRE专职维护Borg系�
 
 * Speaker Bio
 王璞
-.image static/20170218/puwang.jpg 200 130
+.image /static/20170218/puwang.jpg 200 130
 数人云创始人兼CEO，美国 George Mason 大学计算机博士。曾先后供职于 Google、Groupon 和 StumbleUpon 等硅谷互联网公司。擅长分布式计算、大规模机器学习、海量数据处理。曾担任 Google 广告部门数据平台构架师，负责管理每秒访问量全球最高的架构平台。
 
 相关介绍：[[http://finance.eastmoney.com/news/1667,20170204707844133.html][企业级云操作系统数人云完成5000万元A+轮融资]]

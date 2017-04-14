@@ -11,7 +11,7 @@ Tags: technical, TechM
 - Language: Chinese
 - Time: 12:30PM - 5:30PM, 4/15/2017, Saturday
 - Location: Santa Clara Convention Center 2rd floor Theater
-.image static/20170415/jdlogo20131.png 200 250
+.image /static/20170415/jdlogo20131.png 200 250
 
 * Agenda
 - 12:30  Check in
@@ -48,7 +48,7 @@ Chen Zhang is the CTO of JD.com, in charge of driving R&D growth in big data and
 Prior to joining JD.com, he worked at Yahoo for 18 years, at one point responsible for the development of Yahoo Messenger and more recently heading the global research and development center at Yahoo Beijing. Before that, he worked in DEC and Oracle Corporation as head of technology.
 
 He holds a Master’s Degree in Computer Science from Indiana University Bloomington.
-.image static/20170415/zhangcheng.jpg 250 180
+.image /static/20170415/zhangcheng.jpg 250 180
 
 * 主办
 - Global Career Path（GCP）

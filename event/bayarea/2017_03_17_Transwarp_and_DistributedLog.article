@@ -56,7 +56,7 @@ Wanggen is the R&D director of Transwarp, and responsible for the engineering an
 Sijie ([[https://github.com/sijie]]) is the tech lead of Twitter’s Messaging group, and he is the cocreator of Apache DistributedLog and the PMC chair of Apache BookKeeper as well.
 
 * About Transwarp:
-.image static/20170317/transwarp.jpg 130 200
+.image /static/20170317/transwarp.jpg 130 200
 Transwarp Technology (Shanghai) Co., Ltd is one of the very few high technology companies in China that have truly mastered essential big data technologies. Transwarp specializes in R&D and service of enterprise big data infrastructure software products which has been positioned furthest for its completeness of vision in the visionaries' quadrant in the Gartner 2016 Magic Quadrant for Data Warehouse and Data Management Solutions for Analytics, also the only vendor from PRC. Transwarp is famous as one of the six mainstream Hadoop Distribution Vendors worldwide. Transwarp products include big data integrated platform ‘Transwarp Data Hub (abbrv. TDH)’, hyper-converged big data appliance ‘TxData Appliance’ and cloud OS ‘Transwarp OS’. So far, TDH has been successfully deployed in China in industries including telecommunications, finance, transportation, utilities as well as public sectors, making Transwarp the big data infrastructure vendor with the most deployments in China.
 
 * 主办
