@@ -1,6 +1,6 @@
 # [HOWTO] Maintain tech-meetup.com
 
-## Instructions。。。
+## Instructions an
 ```sh
 $ export MEETUP_IMAGE=lamuguo/meetup:20170214
 
