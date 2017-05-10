@@ -1,0 +1,45 @@
+(Bay Area) Apache Kafka: The Rise of Real-time
+27 May 2017
+1:30PM ~ 4:00PM, 05/27/2017,  Saturday
+Tags: technical, TechM
+
+* Registration
+- Registration link: [[https://www.eventbrite.com/e/apache-kafka-the-rise-of-real-time-tickets-34476145078]]
+- Event link: [[/bayarea/2017_05_27_Apache_Kafka:_The_Rise_of_Real-time][(Bay Area) Apache Kafka: The Rise of Real-time]]
+
+* Event Info
+- Language: Chinese
+- Time: 1:30PM ~ 4:00PM, 05/27/2016,  Saturday
+- Location: Suite 300 (Floor 3), 4500 Great America Pkwy, Santa Clara, CA 95054
+
+* Agenda
+- 1:30pm - 2:00pm: Reception and social time
+- 2:00pm - 3:30pm: Talk and QA
+- 3:30pm - 4:00pm: offline networking
+
+* Abstract
+此次讲座主要分享主讲人自2012年接触 Apache Kafka 系统至今的一些开发经验，包括Kafka如何从一个分布式消息队列演化到关键业务数据日志冗余备份，再到流数据的实时处理分析：我们可以将每一次用户点击，每一个数据库更改，每一条日志的生成，都转化成实时的结构化数据流，更早的存储和分析它们，并从中获得价值。最后将介绍最近 Apache Kafka 添加的一些系统架构，包括 Kafka Connect 和 Kafka Streams，并且描述一些如何使用它们的实际应用体验。
+
+* Speaker
+王国璋，Apache Kafka PMC/Committer。现就职于 Confluent，任 Kafka Streams Tech Lead。此前曾就职于 LinkedIn Data Infra Team，主要负责实时数据处理平台的开发与维护，包括 Apache Kafka 和 Apache Samza 系统。再此前于 Cornell University 计算机系取得博士学位，主要研究方向为数据库管理和分布式数据系统。
+LinkedIn：[[https://www.linkedin.com/in/guozhangwang/]]
+
+* 主办
+- [[http://tech-meetup.com][湾区同学技术沙龙(TechM)]]
+
+* 协办
+- 南京大学旧金山湾区校友会
+- 硅谷新创汇
+- 瀚海硅谷科技园
+- 硅谷清华联网
+- 中国科技大学校友会创业俱乐部
+- 浙江大学校友会海纳创新创业俱乐部
+- 北京大学北加州校友会
+- 武汉大学北加州校友会
+- 东南大学硅谷校友会
+- 吉林大学硅谷校友会
+- 复旦大学北加州校友会
+- 华人事业互助会
+- 斯坦福中国学生学者联谊会(ACSSS)
+- 北加州华中科技大学校友会
+- 北京航空航天大学硅谷校友会
