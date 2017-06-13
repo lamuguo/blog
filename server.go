@@ -120,6 +120,9 @@ func createServer(hostport string, contentPath string) {
 	redirectToBarPath(hostport, "/members")
 	redirectToBarPath(hostport, "/wechat")
 
+	// Temp Ads
+	redirectToBarPath(hostport, "/tencent-jobs-2017")
+
 	fs := http.FileServer(http.Dir(*staticPath))
 	http.Handle(hostport + "/static/", http.StripPrefix("/static/", fs))
 }
