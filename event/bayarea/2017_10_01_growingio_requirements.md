@@ -1,7 +1,7 @@
 ## 工程团队人才需求
 
 growingIO有意招聘以下职位，有兴趣的请扫描下面的群二维码加群了解详细信息:
-img src="/static/20171001/growingio-qr.jpg" width="250" />
+<img src="/static/20171001/growingio-qr.jpg" width="250" />
 
 
 ###  VP/Director of Engineering
