@@ -1,5 +1,5 @@
 #### Board Members
-* Xiaofeng Guo, Google Engineer
+* Xiaofeng Guo, CTO of Helium+
 * Peng Du, Google Engineer
 * Weizhao Wang, Google Engineer
 * Lei Xia, Linkedin Engineer
