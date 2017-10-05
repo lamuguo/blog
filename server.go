@@ -117,6 +117,7 @@ func createServer(hostport string, contentPath string) {
 
 	redirectToBarPath(hostport, "/about")
 	redirectToBarPath(hostport, "/groups")
+	redirectToBarPath(hostport, "/talk")
 	redirectToBarPath(hostport, "/members")
 	redirectToBarPath(hostport, "/wechat")
 
