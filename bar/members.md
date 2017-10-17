@@ -1,8 +1,8 @@
-#### Board Members
-* Xiaofeng Guo, CTO of Helium+
-* Peng Du, Google Engineer
-* Weizhao Wang, Google Engineer
-* Lei Xia, Linkedin Engineer
+#### Board Members ([lamuguo@gmail.com](mailto:lamuguo@gmail.com))
+* Xiaofeng Guo, CTO of Helium+ (<mailto:xiaofeng@tech-meetup.com>)
+* Peng Du, Google Engineer (<mailto:peng@tech-meetup.com>)
+* Weizhao Wang, Google Engineer (<mailto:weizhao@tech-meetup.com>)
+* Lei Xia, Linkedin Engineer (<mailto:lxia@tech-meetup.com>)
 
 #### Organizors
 * Ruijun Fu, Google Engineer
