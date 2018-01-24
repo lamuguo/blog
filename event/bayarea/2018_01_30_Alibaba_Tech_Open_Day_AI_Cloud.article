@@ -1,0 +1,56 @@
+(Bay Area) Alibaba Tech Open Day – AI, Cloud, Infrastructure and More
+30 Jan 2018
+5:30PM ~ 9:00PM, 30/01/2018, Tuesday
+Tags: technical, TechM
+
+* Registration
+- Registration link: [[https://alibaba-tech-open-day-2018-01.eventbrite.com][alibaba-tech-open-day-2018-01.eventbrite.com]]
+- Event link: [[/bayarea/2018_01_30_Alibaba_Tech_Open_Day_AI_Cloud][(Bay Area) Alibaba Tech Open Day – AI, Cloud, Infrastructure and More]]
+
+* Join tech-meetup community:
+- LinkedIn group: [[https://www.linkedin.com/groups/8362423]]
+- 微信群/Google group: [[http://tech-meetup.com/groups]]
+
+* Event Info
+- Time: 5:30PM ~ 9:00PM, 30/01/2018, Tuesday
+- Location：The Stanford Faculty Club, 439 Lagunita Dr. Stanford, CA. 94305
+- Language: Chinese
+- Note: Food and refreshments will be served.
+
+* Agenda
+- 5:30 – Check-In and Networking
+- 6:00 – 6:20 Alibaba Technology Overview
+- 6:20 – 6:40 Inside Alibaba Cloud: Lessons, Challenges and Opportunities in Cloud Storage by Jason Wu
+- 6:40 – 7:00 Heterogeneous computing and optimization at Alibaba by Weifeng Zhang
+- 7:00 – 7:20 Cainiao Network: Tech Driven Smart Logistics by Hongwei Ding
+- 7:20 – 7:40 AI in E-commerce Search and Recommendation by Bo Zheng
+- 7:40 – 8:00 Data Enabling Platform by Hongxia Yang
+- 8:00 – 8:20 ASCP: Smart Supply Chain by Yuming Deng
+- 8:20 – 8:40 Self-driving Heterogeneous Database Platform by Minggang Yu
+- 8:40 – 9:00 Free Discussion
+
+* Speakers Bios
+- Jiesheng(Jason) Wu, Principle Engineer, Alibaba Cloud
+Jiesheng (Jason) Wu is a principle engineer of engineering at Alibaba leading the development of Alibaba storage infrastructure and Cloud Storage services. In 2014, he joined Alibaba Cloud Seattle office. Before coming to Alibaba, Jason joined Microsoft Azure storage team in 2008 and was a principal development manager leading the development of Azure storage. In 2004, he joined Ask.com and worked as a senior manager on the search infrastructure and the Crawler system. From 1996 to 1999, he worked as a research engineer on the development of Dawning-series supercomputer systems at National Center for Intelligent Computing system (NCIC), Institute of Computing Technology (ICT). Jason received his Ph.D. in Computer Science from The Ohio State University in 2004.
+
+- Weifeng Zhang, Principle Engineer, Alibaba Infrastructure Services
+Weifeng Zhang is a Principal Engineer / Senior Director at Alibaba Infrastructure Services Group, interested in heterogeneous acceleration for machine learning. Prior to joining Alibaba, Weifeng was a director of engineering at Qualcomm, leading mobile GPU compilation and optimization for world-class performance and power efficiency. Weifeng received a B.S. in electrical engineering from Wuhan University China, and Ph.D in computer science & engineering from University of California San Diego. Dr. Zhang pioneered the dynamic compilation paradigm of gradual, adaptive optimizations along with the application's phased runtime behavior based on simultaneous multithreading (SMT) technology.
+
+- Hongwei(Phil) Ding, Senior Director, Cainiao Network
+Hongwei (Phil) Ding is a senior director of data science & engineering at Cainiao Network in charge of business intelligence, data warehousing, analytics & optimization, and data product. In 2014, he joined Cainiao Network and built the data science & engineering department from scratch. Before coming to Cainiao, Hongwei was responsible for the supply chain analytics and optimization department at IBM Research, and the technical lead of IBM Global Supply Chain Innovation Center. He received the Supply Chain Excellence Award from Supply-Chain Council in 2008. Hongwei received a Ph.D. in Operations Research from INRIA France, a M.S. and B.S. from Tsinghua University.
+
+- Bo Zheng, Principle Engineer, Search Business Unit
+Bo Zheng is a Principle Engineer / Senior Director at Alibaba Search Business Unit, response for search quality, formatting and Machine Learning. Prior to Alibaba, Bo Zheng worked at Google for 11 years, leading display ads quality team and China maps team. Bo Zheng received B.S. and Ph.D. in computer science & technology from Tsinghua University.
+
+- Hongxia Yang, Senior Staff Engineer, Data Technology and Product
+Dr. Hongxia Yang is working as the Senior Staff Data Scientist and Director in Data Technology and Product Business Unit, Alibaba Group. Her interests span the areas of Bayesian statistics, time series analysis, spatial-temporal modeling, survival analysis, machine learning, data mining and their applications to problems in business analytics and big data. Current on-going projects in her team include huge dynamic multi-level heterogenous graphical model for user profiling system, large-scale distributed knowledge graph and its efficient inference for data enabling platform and general ensemble prediction framework for various revenue and costs forecasting, among several others.  She used to work as the Principal Data Scientist at Yahoo! Inc and Research Staff Member at IBM T.J. Watson Research Center respectively and got her PhD degree in Statistics from Duke University in 2010. She has published close to 30 top conference and journal papers and held 9 filed/to be filed US patents and is serving as the associate editor for Applied Stochastic Models in Business and Industry. She has been been elected as an Elected Member of the International Statistical Institute (ISI) in 2017.
+
+- Yuming Deng, Senior Staff Engineer, Supply Chain Platform
+I got my OR/IE Ph.D. degree in Univ. of Texas at Austin in 2009. After graduation I joined Amazon.com with an emphasis on algorithm design for Supply Chain & transportation optimization. I joined Tmall.com under Alibaba Group since 2014. Currently I am focused on algorithm design in Dept. of Supply Chain Platform, Alibaba Group.
+
+- Minggang Yu, Senior Staff Engineer, Database Business Unit
+Minggang(Michael) Yu Chief Architect of heterogeneous computing for OLAP leading GPU/FPGA/ASIC acceleration for OLAP who joined Alibaba Sunnyvale office in 2017. Prior to Alibaba, Michael joined MapD in 2015 as one of major authors of MapD core engine and initial commiter to GOAI. Before that, he joined a stealth-mode startup in 2013, leading LLVM-based compiler team. From 2006 to 2013, he worked as GPU compiler engineer for Qualcomm, AMD and S3 Graphics. Michael received M.Sc. from Tongji University.
+
+* 主办
+- 阿里巴巴集团
+- [[http://tech-meetup.com][湾区同学技术沙龙(TechM)]]
