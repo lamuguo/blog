@@ -7,9 +7,6 @@
 
 今天我们非常荣幸的请到了近十位阿里巴巴的技术高管和技术负责人和我们齐聚一堂，共同探讨搜索推荐与计算平台技术的未来。
 
-### Speakers
-<img src="/static/20180415/alibaba-20180415-speaker-list.jpg"/>
-
 ### Registration
 * Registration link: (TBD) <https://alibaba-open-day-20180415.eventbrite.com>
 * Event link: [(Bay Area) 技术创造新商业：阿里巴巴搜索推荐&计算平台事业部硅谷开放日](/bayarea/2018_04_15_Alibaba_Tech_Day_Search_Cloud)
@@ -24,16 +21,19 @@
 * Language: Chinese & English
 
 ### Agenda
-* 13:00 - 13:15 Support Meeting, by Zhengping QIAN（布民）
-* 13:15 - 13:35 Opening Remarks: Alibaba Technology Overview（阿里巴巴技术简介）, by Jingren ZHOU（靖人）
-* 13:45-14:05 Big Data in Alibaba：evolution，challenges and oppurtunities（阿里巴巴的大数据之路 ）, by Tao GUAN（关涛）
-* 14:10-14:30 Scaling Alibaba's real time infrastructure for Global Shopping Holiday（阿里实时大数据技术的实践--助战双十一）, by Xiaowei JIANG（量仔）
-* 14:30-14:50 Alibaba Platform of AI（阿里巴巴人工智能平台）, by Wei LIN（林伟）
-* 14:50-15:30 Midfield communication, by Zhengping QIAN（布民）
-* 15:30-16:00 Booming ecology by Combining Technology and Buniess -- Introduction of Search and Recommandation（技术和商业融合，助力繁荣生态——搜索和推荐业务介绍）, by Mingqiang WANG（思函）
-* 16:00-16:30 The application and challenge of AI in search and recommendation（AI在搜索推荐的应用与挑战）, by Zhirong WANG（青峰）
-* 16:30-17:00 Big Data DL at Runtime（深度学习大数据投放引擎）, by Jiaxiang SHEN （五福）
-* 17:00-18:00 7人座谈&现场交流, by Zhengping QIAN（布民）
+* 12:30-1:15 Check-In and Networking
+* 1:15-1:45 Alibaba Technology Overview By Zhou,Jingren (VP, Head of the Dept of Search and Computing Platform)
+* 1:45-2:05 Big Data in Alibaba: Evolution, Challenges and Opportunities By Guan,Tao (Senior Staff Engineer, Computing platform Maxcompute Leader)
+* 2:05-2:30 Scaling Alibaba's real time infrastructure for Global Shopping Holiday By Jiang,Xiaowei (Principal Engineer, senior director for real time computing)
+* 2:30-2:50 Alibaba Platform of AI By Lin,Wei (Principal Engineer,Senior Director of Albiaba Platform of AI)
+* 2:50-3:30 Q&A, Free Discussion Hosted By Qian Zhengping (Senior Staff Engineer, Graph Computing leader)
+* 3:30-4:00 Booming ecology by Combining Technology and Business-Introduction of Search and Recommandations	By Wang Mingqiang (Researcher, Search Product Leader)
+* 4:00-4:30 The application and challenge of AI in search and recommendation By Wang Zhirong (Principal Engineer, Algorithmic Technology)
+* 4:30-5:00 Big Data DL at Runtime By Shen Jiaxiang (Distinguished Engineer, Engineering Technology Leader)
+* 5:00-6:00 Panel Discussion, Hosted by Qian Zhengping (Senior Staff Engineer, Graph Computing leader)
+
+### Speakers
+<img src="/static/20180415/alibaba-20180415-speaker-list.jpg"/>
 
 ### 主办
 * [湾区同学技术沙龙(TechM)](http://tech-meetup.com/)
