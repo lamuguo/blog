@@ -12,11 +12,11 @@
 * Event link: [(Bay Area) 技术创造新商业：阿里巴巴搜索推荐&计算平台事业部硅谷开放日](/bayarea/2018_04_15_Alibaba_Tech_Day_Search_Cloud)
 
 ### Join tech-meetup community:
-* LinkedIn group: <www.linkedin.com/groups/8362423>
-* 微信群/Google group: <tech-meetup.com/groups>
+* LinkedIn group: <http://www.linkedin.com/groups/8362423>
+* 微信群/Google group: <http://tech-meetup.com/groups>
 
 ### Event Info
-* Time: 1:00PM ~ 6:00PM, 04/15/2018, Sunday
+* Time: 12:30PM ~ 6:00PM, 04/15/2018, Sunday
 * Location: Plug and Play Tech Center, 440 North Wolfe Road Event Center, Sunnyvale, CA 94085
 * Language: Chinese & English
 
@@ -39,16 +39,18 @@
 * [湾区同学技术沙龙(TechM)](http://tech-meetup.com/)
 
 ### 协办
-* 硅谷新创汇
 * 南京大学湾区校友会
 * 东南大学硅谷校友会
 * 中国科大硅谷校友会
+* 中国科技大学校友会创业俱乐部
 * 北加州清华校友会
+* 硅谷新创汇
+* 硅谷新科技学院
 * 硅谷清华联网
 * 浙江大学校友会海纳创新创业俱乐部
 * 北京大学北加州校友会
-* 武汉大学北加州校友恢
-* 吉林大学硅谷校友会费
+* 武汉大学北加州校友会
+* 吉林大学硅谷校友会
 * 复旦大学北加州校友会
 * 华南理工大学美国校友会
 * 北加州华中科技大学校友会
@@ -62,5 +64,7 @@
 * 湘潭大学北美校友会
 * 哈工大硅谷校友会
 * 中山大学海外校友联网
+* 硅谷天津大学校友会
 * 华人事业互助会
 * 长城会 RobotX Space
+* 瀚海硅谷科技园
