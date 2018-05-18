@@ -1,0 +1,86 @@
+(Bay Area) Deep Dive of Alluxio and Google gVisor
+3 Jun 2018
+1:30PM ~ 5:00PM, 06/03/2018, Sunday
+Tags: technical, TechM, start-up
+
+* 注意：场地容量有限，为确保有兴趣的同学能听到我们的讲座，每张门票收取$5，到场的同学会全额退款。
+
+* Registration
+- Registration link: [[TBD]]
+- Event link: [[/bayarea/2018_06_03_gvisor_alluxio][(Bay Area)Deep Dive of Google gVisor and Alluxio]]
+
+* Join tech-meetup community:
+- LinkedIn group: [[https://www.linkedin.com/groups/8362423]]
+- 微信群/Google group: [[http://tech-meetup.com/groups]]
+
+* Event Info
+- Time: 1:30PM ~ 5:00PM, 06/03/2018, Sunday
+- Location: RobotX Space (Suite 300 (Floor 3), 4500 Great America Pkwy, Santa Clara, CA 95054)
+- Language: Chinese
+- Direction:
+.image /static/robotx-map.png 400 350
+
+* Agenda
+- 1:30pm - 2:00pm: Reception and social time
+- 2:00pm - 3:20pm: Alluxio + Q&A
+- 3:20pm - 3:30pm: Break
+- 3:30pm - 4:50pm: Google gVisor + Q&A
+- 4:50pm - 5:10pm: offline networking
+
+* Talk 1: 分布式虚拟文件系统Alluxio深度解析与展望(Bin Fan)
+Alluxio作为开源的内存级虚拟大数据存储系统，实现不同数据源的无缝对接, 为大数据计算业务提供数据抽象和高速访问.
+Alluxio已在包括京东, 腾讯, 百度, 巴克莱银行等公司的生产环境中大规模部署和运行了数年, 管理着PB级别的数据.
+Alluxio项目最早起源于加州大学伯克利分校AMPLab的研究项目Tachyon,
+目前社区汇集了全世界100多家公司的超过800名贡献者.
+
+本次主题演讲将分享开源分布式存储系统Alluxio的设计理念, 基本概念, 以及在大数据与AI生态中的位置.
+接下来将着重通过实际用例介绍如何利用开源Alluxio系统来有效的解耦合计算与存储, 加速核心大数据业务.
+演讲的最后还将分享设计与实现Alluxio分布式系统过程中的心得与”踩过的坑”, 以及未来Alluxio的计划与发展.
+
+.image /static/20180603/bin-fan.jpg 250 250
+范斌是Alluxio公司的创始成员与资深架构师, Alluxio开源项目的PMC成员. 加入Alluxio项目之前,范斌就职于Google, 从事下一代大规模分布式存储系统的研究与开发, 并获得谷歌Technical Infrastructure Award. 范斌博士毕业于卡内基梅隆大学(Carnegie Mellon University)计算机系, 博士期间从事分布式系统算法和实现, 是CuckooFilter以及高性能的多线程KV库libcuckoo的作者. 有多项专利并在SIGCOMM, SOSP, NSDI等顶级学术会议上发表论文.
+
+* Talk 2: Google gVisor: a Container Runtime Sandbox for Security (Zhengyu He)
+gVisor is a new sandbox for containers, by leveraging process-level
+virtualization and a new user-space kernel written in Go. This talk
+will start from covering the basics of sandboxes, virtualization, and
+operating systems, then introduce the motivation of gVisor -- why
+write a new user-space kernel from scratch -- and the security
+principles used in the design. The talk will also explain some of the
+technical details and gotchas, and then conclude with a discussion of
+the potential use cases.
+
+Zhengyu He: Staff Software Engineer and Manager of Google Cloud,
+Ph.D., Georgia Tech. Co-founder and Tech Lead of gVisor. Led the
+design of multiple Google Cloud products including App Engine, Cloud
+Functions, and Cloud ML.
+
+* 主办
+- [[http://tech-meetup.com][湾区同学技术沙龙(TechM)]]
+
+* 协办
+- 硅谷新创汇
+- 南京大学湾区校友会
+- 东南大学硅谷校友会
+- 中国科大硅谷校友会
+- 北加州清华校友会
+- 硅谷清华联网
+- 浙江大学校友会海纳创新创业俱乐部
+- 北京大学北加州校友会
+- 武汉大学北加州校友恢
+- 吉林大学硅谷校友会费
+- 复旦大学北加州校友会
+- 华南理工大学美国校友会
+- 北加州华中科技大学校友会
+- 北京航空航天大学硅谷校友会
+- 北京邮电大学北美校友会
+- 上海交通大学硅谷校友会
+- 兰州大学北加州校友会
+- 电子科技大学硅谷校友会
+- 安徽大学北美校友会
+- 湖南大学北美校友会
+- 湘潭大学北美校友会
+- 哈工大硅谷校友会
+- 中山大学海外校友联网
+- 华人事业互助会
+- 长城会 RobotX Space
