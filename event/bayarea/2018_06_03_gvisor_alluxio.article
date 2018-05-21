@@ -6,7 +6,7 @@ Tags: technical, TechM, start-up
 * 注意：场地容量有限，为确保有兴趣的同学能听到我们的讲座，每张门票收取$5，到场的同学会全额退款。
 
 * Registration
-- Registration link: [[TBD]]
+- Registration link: [[https://tech-meetup-7-19-2015.eventbrite.com]]
 - Event link: [[/bayarea/2018_06_03_gvisor_alluxio][(Bay Area)Deep Dive of Google gVisor and Alluxio]]
 
 * Join tech-meetup community:
@@ -49,6 +49,8 @@ write a new user-space kernel from scratch -- and the security
 principles used in the design. The talk will also explain some of the
 technical details and gotchas, and then conclude with a discussion of
 the potential use cases.
+
+.image /static/20180603/zhengyu-he.jpeg 250 250
 
 Zhengyu He: Staff Software Engineer and Manager of Google Cloud,
 Ph.D., Georgia Tech. Co-founder and Tech Lead of gVisor. Led the
