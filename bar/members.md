@@ -3,6 +3,7 @@
 * Peng Du, Google Engineer (<mailto:peng@tech-meetup.com>)
 * Weizhao Wang, Google Engineer (<mailto:weizhao@tech-meetup.com>)
 * Lei Xia, Linkedin Engineer (<mailto:lxia@tech-meetup.com>)
+* Isabel Jiang, Marketing Program Director
 
 #### Organizors
 * Ruijun Fu, Google Engineer
