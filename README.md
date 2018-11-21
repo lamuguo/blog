@@ -1,5 +1,13 @@
 # [HOWTO] Maintain tech-meetup.com
 
+## Auto Release Is Ready
+Since commit https://github.com/lamuguo/blog/commit/5ccae9d354f5b1d2c98c3bed6ba69da1af9bc3fa, automatically push is ready. For additional event, we just need to commit the modified/added files, the result will be automatically pushed to tech-meetup.com. Details can be found in .travis.yml file.
+
+For debugging, you can use command below:
+```
+$ go build -o /tmp/server . && /tmp/server
+```
+
 ## Instructions
 ```sh
 $ export MEETUP_IMAGE=lamuguo/meetup:20170214
