@@ -1,4 +1,4 @@
-(Bay Area) 从键盘键入到神经网络 - 深度学习在彭博的应用
+(Bay Area) Data Extraction Revolution in Bloomberg, From Human Typing To Deep Learning Excerpting
 2 Feb 2019
 1:30PM ~ 4:00PM, 2/2/2019, Saturday
 Tags: technical, TechM, start-up
@@ -23,7 +23,8 @@ Tags: technical, TechM, start-up
 - 2:00pm - 3:30pm: Talk+ Q&A
 - 3:30pm - 4:30pm: Offline networking
 
-* Talk Abstract
+* Talk Abstract：从键盘键入到神经网络 - 深度学习在彭博的应用
+
 彭博用三十多年的时间从一个向用户提供部分美国金融数据的公司成长到了现在覆盖全球基本上所有金融数据以及相关新闻数据的全方面的超大型集成平台。这些金融数据都需要从不同的格式中被尽可能快速并且准确的提取出来，标准化，最后通过统一的格式反馈到市场终端用户。在本次演讲中，我们将讲述在神经网络领域最新的突破如何帮助彭博对文件进行自动化处理来实现信息的有效、准确及快速的提取和处理，并将讨论在自动化的过程中一些独特的难点以及解决方案。
 
 * Speakers' bio
