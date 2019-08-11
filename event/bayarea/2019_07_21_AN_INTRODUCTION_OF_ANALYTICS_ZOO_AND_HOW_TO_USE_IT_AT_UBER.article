@@ -1,0 +1,73 @@
+(Bay Area) An introduction of Analytics Zoo and how to use it at Uber
+21 Jul 2019
+1:30PM ~ 5:00PM, 7/21/2019, Sunday
+Tags: technical, TechM, start-up
+
+* Registration
+- Registration link: [[https://tech-meetup-07-21-2019.eventbrite.com/]]
+- Event link: [[/bayarea/2019_07_21_AN_INTRODUCTION_OF_ANALYTICS_ZOO_AND_HOW_TO_USE_IT_AT_UBER][(Bay Area) An introduction of Analytics Zoo and how to use it at Uber]]
+
+* Join tech-meetup community:
+- LinkedIn group: [[https://www.linkedin.com/groups/8362423]]
+- 微信群/Google group: [[http://tech-meetup.com/groups]]
+
+* Event Info
+- Time: 1:30PM ~ 5:00PM, 7/21/2019, Sunday
+- Location: 1st Floor Pitch Room, 4500 Great America Parkway, Santa Clara 95054 (ZGC Innovation Center)
+- Language: Chinese
+.image /static/robotx-map.png 400 350
+
+* Agenda
+- 1:30pm - 2:00pm: Reception and social time
+- 2:00pm - 3:20pm: Deep Learning on Sensor Data with Analytics Zoo at Uber + Q&A
+- 3:20pm - 3:30pm: Break
+- 3:30pm - 4:50pm: Analytics Zoo Introduction + Q&A
+- 4:50pm - 5:10pm: offline networking
+
+* Talk 1: Deep Learning on Sensor Data with Analytics Zoo at Uber(Speaker: Lucinda Zhao)
+Uber processes TBs of sensor data daily to build better products. For example crash detection with which operators can reach out to drivers who are detected going through accidents to provide prompt guidance and support. Sensor data is one important input to such applications.
+
+Sensor data is ideal for Deep Learning. However, overhead for DL dev and productionisation is large -- most frameworks focus only on model training (forward/backward propagation) whereas data ingestion, model integration, pipeline management etc are left behind. Those steps may end up eating up big chunk of dev cycle. AnalyticsZoo fills in the missing pieces.
+
+In this talk we will provide overall experience feedback for DL on large-scale business data with AnalyticsZoo from users’ point of view: how the workflow looks like, how AZ helps boost dev/productionisation efficiency in DL and what are the potential concerns. Overall it’s definitely a framework worth onboarding when live in the Hadoop-Spark BigData-DL ecosystem.
+
+Lucinda(Luyu) Zhao: ML engineer at Sensor Intelligence team of Uber. Joined Uber in 2015 she has worked on various projects utilizing sensor data to provide inferences and insights. Before Uber she worked at Qualcomm designing baseband signal processing algorithm and architecture. She has background and production level first hand experience in big data, machine learning, wireless communication and signal processing.
+
+.image /static/20190721/zhao_lucinda.jpeg
+
+* Talk 2: An Introduction to Analytics Zoo: Distributed TensorFlow, Kerasand BigDLon Apache Spark (Yuhao Yang)
+Analytics-Zoo是基于Apache Spark以及BigDL的开源分布式深度学习框架（https://github.com/intel-analytics/analytics-zoo）。它为Spark提供了深入学习功能的原生支持，同时为现成的使用单节点志强Xeon CPU的开源深度学习框架（如Caffe和Torch）带来了数量级的性能速度提升，并为它们提供了基于Spark架构的对深度学习任务的高效的水平扩展的能力；此外，它还允许数据科学家使用熟悉的工具（包括Python和Notebook等）来对大数据进行分布式深度学习分析。在这次演讲中，我们将演示大数据用户和数据科学家如何使用Analytics-Zoo以分布式方式对海量数据进行深度学习分析（如图像识别、对象检测、NLP等）。这可以让他们使用已有的大数据集群（例如Apache Hadoop和Spark）来作为数据存储、数据处理和挖掘、特征工程、传统的（非深度）机器学习和深度学习工作负载的统一数据分析平台。
+
+Yuhao Yang: senior software engineer on the big data team at Intel, where he focuses on deep learning algorithms and applications—particularly distributed deep learning and machine learning solutions for fraud detection, recommendation, speech recognition, and visual perception. He’s also an active contributor to Apache Spark MLlib.
+
+.image /static/20190721/yang_yuhao.jpeg
+
+* 主办
+- [[http://tech-meetup.com][湾区同学技术沙龙(TechM)]]
+- ZGC Innovation Center
+
+* 协办
+- 硅谷新创汇
+- 南京大学湾区校友会
+- 东南大学硅谷校友会
+- 中国科大硅谷校友会
+- 北加州清华校友会
+- 硅谷清华联网
+- 浙江大学校友会海纳创新创业俱乐部
+- 北京大学北加州校友会
+- 武汉大学北加州校友会
+- 吉林大学硅谷校友会会
+- 复旦大学北加州校友会
+- 华南理工大学美国校友会
+- 北加州华中科技大学校友会
+- 北京航空航天大学硅谷校友会
+- 北京邮电大学北美校友会
+- 上海交通大学硅谷校友会
+- 兰州大学北加州校友会
+- 电子科技大学硅谷校友会
+- 安徽大学北美校友会
+- 湖南大学北美校友会
+- 湘潭大学北美校友会
+- 哈工大硅谷校友会
+- 中山大学海外校友联网
+- 华人事业互助会
