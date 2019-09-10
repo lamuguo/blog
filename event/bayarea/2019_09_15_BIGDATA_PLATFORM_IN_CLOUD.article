@@ -1,18 +1,18 @@
-(Bay Area) Google Doc 是如何炼成的 - 深入浅出协同编辑/Deep Dive Collaborative Editing
-18 Aug 2019
-1:30PM ~ 4:00PM, 8/18/2019, Sunday
+(Bay Area) 云端数据中台：数据编排与平台运维
+15 Sep 2019
+1:30PM ~ 4:00PM, 9/15/2019, Sunday
 Tags: technical, TechM, start-up
 
 * Registration
-- Registration link: [[https://tech-meetup-8-18-2019.eventbrite.com/]]
-- Event link: [[/bayarea/2019_08_18_GOOGLE_DOC_DEEP_DIVE_COLLABORATIVE_EDITING][(Bay Area) Google Doc 是如何炼成的 - 深入浅出协同编辑/Deep Dive Collaborative Editing]]
+- Registration link: [[https://tech-meetup-9-15-2019.eventbrite.com/]]
+- Event link: [[/bayarea/2019_09_15_BIGDATA_PLATFORM_IN_CLOUD][(Bay Area) 云端数据中台：数据编排与平台运维]]
 
 * Join tech-meetup community:
 - LinkedIn group: [[https://www.linkedin.com/groups/8362423]]
 - 微信群/Google group: [[http://tech-meetup.com/groups]]
 
 * Event Info
-- Time: 1:30PM ~ 4:00PM, 8/18/2019, Sunday
+- Time: 1:30PM ~ 4:00PM, 9/15/2019, Sunday
 - Location: 1st Floor Pitch Room, 4500 Great America Parkway, Santa Clara 95054 (ZGC Innovation Center)
 - Language: Chinese
 
@@ -21,11 +21,23 @@ Tags: technical, TechM, start-up
 - 2:00pm - 3:30pm: Talk+ Q&A
 - 3:30pm - 4:30pm: Offline networking
 
-* Talk Abstract：
-随着互联网技术的发展，越来越多的企业协同软件都内嵌了实施协同编辑功能，从最早的鼻祖GoogleDocs, 到Quip, 再到最新流行的Notion 等等； 今天我们想就实时协同编辑技术进行深入浅出的探讨。
 
-* Speakers' bio
-郑文涛：现任字节跳动旗下产品Lark(飞书)企业邮箱业务负责人，之前在Google GSuite 带领技术团队打造了两款从0到1的产品：Hangouts Chat 和 Jamboard.
+* Talk1: 如何把Alerts减少两个数量级: EA数据平台在云端运维的探索与演进
+
+Abstract: Today, one can easily launch or terminate services with hundreds or thousands of compute instances in just a few seconds on cloud services such as AWS. However, operating, monitoring and maintaining those resources could also easily become a nightmare if the corresponding tooling systems were not designed in a cloud-native way.
+
+Detail: In this talk, we share our lessons in building and rebuilding a cloud-native monitoring system to solve this problem at Electronic Arts (EA). In the first generation of the monitoring system, configurations were manually created for many individual software components and spread over all the resources. As services were started and terminated rapidly over time, it was extremely difficult to keep all the configurations up to date. Consequently, on average we received over 1,000 alerts from thousands of machines on a daily basis, which stressed the operations team. We redesigned the system in late 2018 in a project called Monitoring As Code (MAC) emphasizing on version control and automation. MAC manages all the configurations using a GIT project in the same way as software code. Moreover, it establishes standards so that the configurations are automatically generated and deployed to keep everything in sync. As a result, it reduced the daily average number of alerts by two orders of magnitude. A big data problem is reduced to a small data problem for human productivity and operational efficiency.
+
+Speaker Bio: The speaker, Du Li, is currently an Architect of Big Data Infrastructure at Electronic Arts. He earned his BS from Wuhan University, MS from Peking University, and PhD from UCLA. He worked in academia and industrial labs for many years. Prior to joining EA in mid-2018, he worked at Yahoo and Apple as a senior software engineer.
+
+* Talk2: 基于Raft,gRPC,RocksDB和高并发算法打造存储10亿个文件的高效元数据服务
+
+Abstract: 起源于UC Berkeley AMPLab的Alluxio是一个被百度、腾讯、华为、沃尔玛、Twosigma等行业巨头在云端广泛应用的开源数据编排系统。它的设计初衷之一包括能够高效存储并服务超大规模的文件系统中所有文件和目录的元数据。
+
+Detail: 本演讲将分享Alluxio元数据服务（master节点）的架构，实现和优化，以解决可扩展性挑战。我们将特别介绍如何设计和应用合多个前沿工程技术和实践，包括基于堆外KV store RocksDB实现分层级的元数据存储，细粒度文件系统inode树锁方案，基于Raft分布式共识协议的master多节点高可用方案，以及社区对gRPC系统的探索和实践。结合上述技术，Alluxio 2.0的元数据服务能够存储至少10亿个文件，并在显着降低内存需求的同时扩展到3000个worker节点并为30000个客户端提供服务。
+
+Speaker Bio: 范斌是Alluxio公司的创始成员与, Alluxio开源项目的PMC成员. 加入Alluxio团队前, 范斌在Google从事下一代大规模分布式存储系统的研究与开发. 范斌博士毕业于卡内基梅隆大学计算机系, 博士期间在分布式系统算法和系统实现等方向发表多篇包括SIGCOMM, SOSP, NSDI等顶级论文, 设计和实现了CuckooFilter，MemC3以及libCuckoo.
+
 
 * 主办
 - [[http://tech-meetup.com][湾区同学技术沙龙(TechM)]]
