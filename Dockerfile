@@ -7,11 +7,12 @@ ADD . /go/src/github.com/lamuguo/blog
 
 WORKDIR /go/src/github.com/lamuguo/blog
 
-RUN go get -v github.com/lamuguo/blog && \
-    go install github.com/lamuguo/blog
+RUN curl https://raw.githubusercontent.com/golang/dep/master/install.sh | sh
+RUN dep ensure
+RUN go build -o /tmp/server .
 
 # Run the outyet command by default when the container starts.
-ENTRYPOINT /go/bin/blog
+ENTRYPOINT /tmp/server
 
 # Document that the service listens on port 8080.
 EXPOSE 8080
