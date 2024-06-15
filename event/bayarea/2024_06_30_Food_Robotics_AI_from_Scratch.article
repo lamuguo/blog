@@ -1,0 +1,34 @@
+(Bay Area) Food Robotics AI from Scratch
+30 Jun 2024
+1:30PM ~ 3:30PM, 6/30/2024, Sunday
+Tags: technical, TechM, start-up, Robotics, AI
+
+* Registration
+- Registration link: [[https://forms.gle/1pqE6YW9js1coG7QA][Google Sign-up Form]]
+- Event link: [[/bayarea/2024_06_30_Food_Robotics_AI_from_Scratch][(Bay Area) Food Robotics AI from Scratch]]
+
+* Join tech-meetup community:
+- LinkedIn group: [[https://www.linkedin.com/groups/8362423]]
+- Wechat Group/Google group: [[http://tech-meetup.com/groups]]
+
+* Event Info
+- Time: 1:30PM ~ 3:30PM, 6/30/2024, Sunday
+- Location: 340 E Middlefield Rd, Mountain View, CA 94043 (JJLake Business Center)
+- Language: Chinese
+
+* Agenda
+- 1:00PM - 1:30PM: Reception and social time
+- 2:00PM - 3:30PM: Talk + Q&A
+- 3:30PM - 4:00PM: Offline networking
+
+* Talk: 从零开始构建食品机器人：自动化与AI的结合
+- Speaker: Xiaofeng Guo （郭晓峰）
+
+本次活动中，我们会介绍以下我们这个食品机器人项目的实现过程（包括我们之前失败的经历），以及如何逐步将人工智能（AI）技术应用于其中。在这个项目中，我们尝试实现一个高效的食品自动化解决方案，以降低人工成本，提高生产效率，最终为消费者提供更好的产品和服务体验。我们经历了机械设计、硬件开发、固件实现、顶层控制+AI等等的工作，基本堆出来了第一代机器，并收集了一些数据。目前一方面在迭代这个机器，一方面逐步引入AI，以提升机器的精度和效率。
+
+对于这方面目前的状态，我们会讨论一下近期比较流行的，主要基于robomimic平台的模拟学习方案；以及我们觉得非常强大的基于模拟的强化学习解决方案。如果大家有这方面的项目经验，欢迎来meetup上交流，也欢迎在后续的meetup上介绍给大家。同样，在机械和硬件的实现过程中，我们对于工具的匮乏深感痛苦。由于目前设计工具无法用某种编程语言的方式进行描述，导致这方面无法引入类似chatgpt这样的强AI的状态上。这个会是我们的长期目标，有兴趣的同学也可以来贡献你们的想法。
+
+* 主办
+- [[http://tech-meetup.com][湾区同学技术沙龙(TechM)]]
+- JJLake Business Center
+- 南京大学湾区校友会
